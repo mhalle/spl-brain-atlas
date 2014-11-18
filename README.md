@@ -28,7 +28,7 @@ We welcome anatomical or technical contributions from the greater community.
 
 ## Acknowledgement ##
 
-The SPL-PNL Brain Atlas has been developed with support from the National Institutes of Health, grants P41 RR013218/RR/NCRR and R01 MH050740/MH/NIMH.  Additional support was provided by a Google Research Grant.
+The SPL-PNL Brain Atlas has been developed with support from the National Institutes of Health under grants P41 EB015902/RR/NIBIB (the [Neuroimage Analysis Center](http://nac.spl.harvard.edu/)), P41 RR013218/RR/NCRR and R01 MH050740/MH/NIMH.  Additional support was provided by a Google Research Grant and other sources.
 
 If you should find the atlas useful, please reference it using information at the following URL:
 http://www.spl.harvard.edu/publications/item/view/1265 .
