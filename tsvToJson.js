@@ -9,7 +9,7 @@ fs.readFile('labelinfo/brain-atlas-labels-with-metadata.tsv', 'utf-8', function 
     var parsedTSV = tsv.parse(fileContent).filter((e) => e.value !== ''); //for some reasons, some entries have an empty  value and should be removed
 
     var result = [];
-    
+
     //----------------------------------------------- DEFINING HEADER -----------------------------------------------//
     var header = {
         "@type": "header",
@@ -36,71 +36,84 @@ Over the years, the original atlas has undergone several revisions. The current 
     };
 
     result.push(header);
-    
-    //--------------------------------------------- DEFINING BACKGROUND ---------------------------------------------//
 
-    //background must be treated separatly because it does not match a data source
-    var background = {
-        "@id" : "structure0",
-        "@type" : "structure",
-        sourceSelector : {
-            dataKey : Number(parsedTSV[0].value),
-        },
-        annotation : {
-            name : parsedTSV[0].label,
-            radlexId : parsedTSV[0]['radlex_id'],
-            radlexStructureId : parsedTSV[0]['radlex_structure_id'],
-            notes : parsedTSV[0].notes
-        },
-        renderOptions : {
-            color : parsedTSV[0].color
-        }
-    };
+    //-------------------------------------------- LOOKING FOR VTK FILES --------------------------------------------//
 
-    result.push(background);
+    fs.readdir('slicer/models', function (err, vtkFiles) {
+        console.log(vtkFiles.length+" vtk files found");
 
 
-    //------------------------------------- LOOP OVER ALL THE STRUCTURES IN TSV -------------------------------------//
+        //----------------------------------- LOOP OVER ALL THE STRUCTURES IN TSV -----------------------------------//
 
-    for (var i = 1; i < parsedTSV.length; i++) {
+        var numberOfDataSources = 0;
+        var usedVTKFiles = [];
+        var structuresWithoutVTKFile = [];
+        
+        for (var i = 1; i < parsedTSV.length; i++) {
 
-        var dataSource = {
-            "@id" : "dataSource"+i,
-            "@type" : "datasource",
-            "mimeType" : "application/x-vtk",
-            "source" : "file://slicer/models/Model_"+parsedTSV[i].value+"_"+parsedTSV[i].label.replace(/ /g, '_')+".vtk"
-        };
-        result.push(dataSource);
+            var structure = {
+                "@id" : "structure"+i,
+                "@type" : "structure",
+                sourceSelector : {
+                    dataKey : Number(parsedTSV[i].value)
+                },
+                annotation : {
+                    name : parsedTSV[i].label,
+                    radlexId : parsedTSV[i]['radlex_id'],
+                    radlexStructureId : parsedTSV[i]['radlex_structure_id'],
+                    notes : parsedTSV[i].notes
+                },
+                renderOptions : {
+                    color : parsedTSV[i].color
+                }
+            };
 
-        var structure = {
-            "@id" : "structure"+i,
-            "@type" : "structure",
-            sourceSelector : {
-                dataKey : Number(parsedTSV[i].value),
-                dataSource : "dataSource"+i
-            },
-            annotation : {
-                name : parsedTSV[i].label,
-                radlexId : parsedTSV[i]['radlex_id'],
-                radlexStructureId : parsedTSV[i]['radlex_structure_id'],
-                notes : parsedTSV[i].notes
-            },
-            renderOptions : {
-                color : parsedTSV[i].color
+            var fileNames = vtkFiles.filter((name) => name.includes('Model_'+parsedTSV[i].value+'_'));
+            var fileName = fileNames.length > 0 ? fileNames[0] : null;
+            
+            if (fileNames.length > 1) {
+                throw "Error : several vtk files match the same value";
             }
-        };
+            
+            //create data source only if the file exists
+            if (fileName) {
+                var dataSource = {
+                    "@id" : "dataSource"+i,
+                    "@type" : "datasource",
+                    "mimeType" : "application/x-vtk",
+                    "source" : "file://slicer/models/"+fileName
+                };
+                result.push(dataSource);
+                usedVTKFiles.push(fileName);
 
-        result.push(structure);
-    }
-    
-    //---------------------------------------------- WRITING JSON FILE ----------------------------------------------//
+                structure.sourceSelector.dataSource = dataSource["@id"];
+                numberOfDataSources++;
+            }
+            else {
+                structuresWithoutVTKFile.push(parsedTSV[i].label);
+            }
 
-    fs.writeFile("atlasStructure.json", JSON.stringify(result, null, 4), function(err) {
-        if(err) {
-            return console.log(err);
+            result.push(structure);
         }
+        
+        console.log(numberOfDataSources+" data source(s) created");
+        console.log('useless vtk files : ', JSON.stringify(vtkFiles.filter((name) => usedVTKFiles.indexOf(name) === -1), null, 4));
+        console.log(i+" structure(s) created");
+        console.log('structures without vtk files : ', JSON.stringify(structuresWithoutVTKFile, null, 4));
+        
+        
 
-        console.log("The file was saved!");
-    }); 
+        //-------------------------------------------- WRITING JSON FILE --------------------------------------------//
+
+        fs.writeFile("atlasStructure.json", JSON.stringify(result, null, 4), function(err) {
+            if(err) {
+                return console.log(err);
+            }
+
+            console.log("The JSON file was saved!");
+        }); 
+
+
+    });
 
 });

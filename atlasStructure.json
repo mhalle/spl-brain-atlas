@@ -12,22 +12,6 @@
         "coordinate_system": "self defined"
     },
     {
-        "@id": "structure0",
-        "@type": "structure",
-        "sourceSelector": {
-            "dataKey": 0
-        },
-        "annotation": {
-            "name": "background",
-            "radlexId": "",
-            "radlexStructureId": "",
-            "notes": ""
-        },
-        "renderOptions": {
-            "color": "rgba(0,0,0,0)"
-        }
-    },
-    {
         "@id": "dataSource1",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
@@ -143,17 +127,10 @@
         }
     },
     {
-        "@id": "dataSource6",
-        "@type": "datasource",
-        "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_8_left_cerebellar_cortex.vtk"
-    },
-    {
         "@id": "structure6",
         "@type": "structure",
         "sourceSelector": {
-            "dataKey": 8,
-            "dataSource": "dataSource6"
+            "dataKey": 8
         },
         "annotation": {
             "name": "left cerebellar cortex",
@@ -166,17 +143,10 @@
         }
     },
     {
-        "@id": "dataSource7",
-        "@type": "datasource",
-        "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_10_left_thalamus.vtk"
-    },
-    {
         "@id": "structure7",
         "@type": "structure",
         "sourceSelector": {
-            "dataKey": 10,
-            "dataSource": "dataSource7"
+            "dataKey": 10
         },
         "annotation": {
             "name": "left thalamus",
@@ -330,7 +300,7 @@
         "@id": "dataSource14",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_19_cerebral_aqueduct.vtk"
+        "source": "file://slicer/models/Model_19_aqueduct.vtk"
     },
     {
         "@id": "structure14",
@@ -419,17 +389,10 @@
         }
     },
     {
-        "@id": "dataSource18",
-        "@type": "datasource",
-        "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_27_left_middle_cerebellar_peduncle.vtk"
-    },
-    {
         "@id": "structure18",
         "@type": "structure",
         "sourceSelector": {
-            "dataKey": 27,
-            "dataSource": "dataSource18"
+            "dataKey": 27
         },
         "annotation": {
             "name": "left middle cerebellar peduncle",
@@ -442,17 +405,10 @@
         }
     },
     {
-        "@id": "dataSource19",
-        "@type": "datasource",
-        "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_28_unsegmented_region_of_left_hypothalamus.vtk"
-    },
-    {
         "@id": "structure19",
         "@type": "structure",
         "sourceSelector": {
-            "dataKey": 28,
-            "dataSource": "dataSource19"
+            "dataKey": 28
         },
         "annotation": {
             "name": "unsegmented region of left hypothalamus",
@@ -465,17 +421,10 @@
         }
     },
     {
-        "@id": "dataSource20",
-        "@type": "datasource",
-        "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_31_choroid_plexus_of_left_cerebral_hemisphere.vtk"
-    },
-    {
         "@id": "structure20",
         "@type": "structure",
         "sourceSelector": {
-            "dataKey": 31,
-            "dataSource": "dataSource20"
+            "dataKey": 31
         },
         "annotation": {
             "name": "choroid plexus of left cerebral hemisphere",
@@ -488,17 +437,10 @@
         }
     },
     {
-        "@id": "dataSource21",
-        "@type": "datasource",
-        "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_34_choroid_plexus_of_left_cerebral_hemisphere.vtk"
-    },
-    {
         "@id": "structure21",
         "@type": "structure",
         "sourceSelector": {
-            "dataKey": 34,
-            "dataSource": "dataSource21"
+            "dataKey": 34
         },
         "annotation": {
             "name": "choroid plexus of left cerebral hemisphere",
@@ -514,7 +456,7 @@
         "@id": "dataSource22",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_35_unsegmented_region_of_pons.vtk"
+        "source": "file://slicer/models/Model_35_pons.vtk"
     },
     {
         "@id": "structure22",
@@ -537,7 +479,7 @@
         "@id": "dataSource23",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_40_unsegmented_region_of_midbrain.vtk"
+        "source": "file://slicer/models/Model_40_part_of_midbrain.vtk"
     },
     {
         "@id": "structure23",
@@ -649,17 +591,10 @@
         }
     },
     {
-        "@id": "dataSource28",
-        "@type": "datasource",
-        "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_47_right_cerebellar_cortex.vtk"
-    },
-    {
         "@id": "structure28",
         "@type": "structure",
         "sourceSelector": {
-            "dataKey": 47,
-            "dataSource": "dataSource28"
+            "dataKey": 47
         },
         "annotation": {
             "name": "right cerebellar cortex",
@@ -672,17 +607,10 @@
         }
     },
     {
-        "@id": "dataSource29",
-        "@type": "datasource",
-        "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_49_right_thalamus.vtk"
-    },
-    {
         "@id": "structure29",
         "@type": "structure",
         "sourceSelector": {
-            "dataKey": 49,
-            "dataSource": "dataSource29"
+            "dataKey": 49
         },
         "annotation": {
             "name": "right thalamus",
@@ -833,17 +761,10 @@
         }
     },
     {
-        "@id": "dataSource36",
-        "@type": "datasource",
-        "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_60_unsegmented_region_of_right_hypothalamus.vtk"
-    },
-    {
         "@id": "structure36",
         "@type": "structure",
         "sourceSelector": {
-            "dataKey": 60,
-            "dataSource": "dataSource36"
+            "dataKey": 60
         },
         "annotation": {
             "name": "unsegmented region of right hypothalamus",
@@ -879,17 +800,10 @@
         }
     },
     {
-        "@id": "dataSource38",
-        "@type": "datasource",
-        "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_63_choroid_plexus_of_right_cerebral_hemisphere.vtk"
-    },
-    {
         "@id": "structure38",
         "@type": "structure",
         "sourceSelector": {
-            "dataKey": 63,
-            "dataSource": "dataSource38"
+            "dataKey": 63
         },
         "annotation": {
             "name": "choroid plexus of right cerebral hemisphere",
@@ -1204,7 +1118,7 @@
         "@id": "dataSource52",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_301_left_III_v.vtk"
+        "source": "file://slicer/models/Model_301_left-III-v.vtk"
     },
     {
         "@id": "structure52",
@@ -1227,7 +1141,7 @@
         "@id": "dataSource53",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_302_left_IV_v.vtk"
+        "source": "file://slicer/models/Model_302_left-IV-v.vtk"
     },
     {
         "@id": "structure53",
@@ -1250,7 +1164,7 @@
         "@id": "dataSource54",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_303_left_V_v.vtk"
+        "source": "file://slicer/models/Model_303_left-V-v.vtk"
     },
     {
         "@id": "structure54",
@@ -1273,7 +1187,7 @@
         "@id": "dataSource55",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_304_left_VI_v.vtk"
+        "source": "file://slicer/models/Model_304_left-VI-v.vtk"
     },
     {
         "@id": "structure55",
@@ -1293,17 +1207,10 @@
         }
     },
     {
-        "@id": "dataSource56",
-        "@type": "datasource",
-        "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_305_left_VIIAf_v.vtk"
-    },
-    {
         "@id": "structure56",
         "@type": "structure",
         "sourceSelector": {
-            "dataKey": 305,
-            "dataSource": "dataSource56"
+            "dataKey": 305
         },
         "annotation": {
             "name": "left VIIAf v",
@@ -1316,17 +1223,10 @@
         }
     },
     {
-        "@id": "dataSource57",
-        "@type": "datasource",
-        "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_306_left_VIIAt_v.vtk"
-    },
-    {
         "@id": "structure57",
         "@type": "structure",
         "sourceSelector": {
-            "dataKey": 306,
-            "dataSource": "dataSource57"
+            "dataKey": 306
         },
         "annotation": {
             "name": "left VIIAt v",
@@ -1342,7 +1242,7 @@
         "@id": "dataSource58",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_307_left_VIIB_v.vtk"
+        "source": "file://slicer/models/Model_307_left-VIIB-v.vtk"
     },
     {
         "@id": "structure58",
@@ -1365,7 +1265,7 @@
         "@id": "dataSource59",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_308_left_VIIIA_v.vtk"
+        "source": "file://slicer/models/Model_308_left-VIIIA-v.vtk"
     },
     {
         "@id": "structure59",
@@ -1388,7 +1288,7 @@
         "@id": "dataSource60",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_309_left_VIIIB_v.vtk"
+        "source": "file://slicer/models/Model_309_left-VIIIB-v.vtk"
     },
     {
         "@id": "structure60",
@@ -1411,7 +1311,7 @@
         "@id": "dataSource61",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_310_left_IX_v.vtk"
+        "source": "file://slicer/models/Model_310_left-IX-v.vtk"
     },
     {
         "@id": "structure61",
@@ -1434,7 +1334,7 @@
         "@id": "dataSource62",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_311_left_X_v.vtk"
+        "source": "file://slicer/models/Model_311_left-X-v.vtk"
     },
     {
         "@id": "structure62",
@@ -1457,7 +1357,7 @@
         "@id": "dataSource63",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_312_left_III_m.vtk"
+        "source": "file://slicer/models/Model_312_left-III-m.vtk"
     },
     {
         "@id": "structure63",
@@ -1480,7 +1380,7 @@
         "@id": "dataSource64",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_313_left_IV_m.vtk"
+        "source": "file://slicer/models/Model_313_left-IV-m.vtk"
     },
     {
         "@id": "structure64",
@@ -1503,7 +1403,7 @@
         "@id": "dataSource65",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_314_left_V_m.vtk"
+        "source": "file://slicer/models/Model_314_left-V-m.vtk"
     },
     {
         "@id": "structure65",
@@ -1526,7 +1426,7 @@
         "@id": "dataSource66",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_315_left_VI_m.vtk"
+        "source": "file://slicer/models/Model_315_left-VI-m.vtk"
     },
     {
         "@id": "structure66",
@@ -1549,7 +1449,7 @@
         "@id": "dataSource67",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_316_left_VIIA_crusI_m.vtk"
+        "source": "file://slicer/models/Model_316_left-VIIA_crusI-m.vtk"
     },
     {
         "@id": "structure67",
@@ -1572,7 +1472,7 @@
         "@id": "dataSource68",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_317_left_VIIA_crusII_m.vtk"
+        "source": "file://slicer/models/Model_317_left-VIIA_crusII-m.vtk"
     },
     {
         "@id": "structure68",
@@ -1595,7 +1495,7 @@
         "@id": "dataSource69",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_318_left_VIIB_m.vtk"
+        "source": "file://slicer/models/Model_318_left-VIIB-m.vtk"
     },
     {
         "@id": "structure69",
@@ -1618,7 +1518,7 @@
         "@id": "dataSource70",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_319_left_VIIIA_m.vtk"
+        "source": "file://slicer/models/Model_319_left-VIIIA-m.vtk"
     },
     {
         "@id": "structure70",
@@ -1641,7 +1541,7 @@
         "@id": "dataSource71",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_320_left_VIIIB_m.vtk"
+        "source": "file://slicer/models/Model_320_left-VIIIB-m.vtk"
     },
     {
         "@id": "structure71",
@@ -1664,7 +1564,7 @@
         "@id": "dataSource72",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_321_left_IX_m.vtk"
+        "source": "file://slicer/models/Model_321_left-IX-m.vtk"
     },
     {
         "@id": "structure72",
@@ -1684,17 +1584,10 @@
         }
     },
     {
-        "@id": "dataSource73",
-        "@type": "datasource",
-        "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_322_left_X_m.vtk"
-    },
-    {
         "@id": "structure73",
         "@type": "structure",
         "sourceSelector": {
-            "dataKey": 322,
-            "dataSource": "dataSource73"
+            "dataKey": 322
         },
         "annotation": {
             "name": "left X m",
@@ -1710,7 +1603,7 @@
         "@id": "dataSource74",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_323_left_V_l.vtk"
+        "source": "file://slicer/models/Model_323_left-V-l.vtk"
     },
     {
         "@id": "structure74",
@@ -1733,7 +1626,7 @@
         "@id": "dataSource75",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_324_left_VI_l.vtk"
+        "source": "file://slicer/models/Model_324_left-VI-l.vtk"
     },
     {
         "@id": "structure75",
@@ -1756,7 +1649,7 @@
         "@id": "dataSource76",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_327_left_VIIA_crusI_l1.vtk"
+        "source": "file://slicer/models/Model_327_left-VIIA_crusI-l1.vtk"
     },
     {
         "@id": "structure76",
@@ -1779,7 +1672,7 @@
         "@id": "dataSource77",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_328_left_VIIA_crusII_l1.vtk"
+        "source": "file://slicer/models/Model_328_left-VIIA_crusII-l1.vtk"
     },
     {
         "@id": "structure77",
@@ -1802,7 +1695,7 @@
         "@id": "dataSource78",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_329_left_VIIB_l.vtk"
+        "source": "file://slicer/models/Model_329_left-VIIB-l.vtk"
     },
     {
         "@id": "structure78",
@@ -1825,7 +1718,7 @@
         "@id": "dataSource79",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_330_left_VIIIA_l.vtk"
+        "source": "file://slicer/models/Model_330_left-VIIIA-l.vtk"
     },
     {
         "@id": "structure79",
@@ -1848,7 +1741,7 @@
         "@id": "dataSource80",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_331_left_VIIIB_l.vtk"
+        "source": "file://slicer/models/Model_331_left-VIIIB-l.vtk"
     },
     {
         "@id": "structure80",
@@ -1871,7 +1764,7 @@
         "@id": "dataSource81",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_332_left_VIIA_crusI_l2.vtk"
+        "source": "file://slicer/models/Model_332_left-VIIA_crusI-l2.vtk"
     },
     {
         "@id": "structure81",
@@ -1894,7 +1787,7 @@
         "@id": "dataSource82",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_333_left_VIIA_crusII_l2.vtk"
+        "source": "file://slicer/models/Model_333_left-VIIA_crusII-l2.vtk"
     },
     {
         "@id": "structure82",
@@ -1917,7 +1810,7 @@
         "@id": "dataSource83",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_334_right_I_II_v.vtk"
+        "source": "file://slicer/models/Model_334_right-I_II-v.vtk"
     },
     {
         "@id": "structure83",
@@ -1940,7 +1833,7 @@
         "@id": "dataSource84",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_335_right_III_v.vtk"
+        "source": "file://slicer/models/Model_335_right-III-v.vtk"
     },
     {
         "@id": "structure84",
@@ -1963,7 +1856,7 @@
         "@id": "dataSource85",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_336_right_IV_v.vtk"
+        "source": "file://slicer/models/Model_336_right-IV-v.vtk"
     },
     {
         "@id": "structure85",
@@ -1986,7 +1879,7 @@
         "@id": "dataSource86",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_337_right_V_v.vtk"
+        "source": "file://slicer/models/Model_337_right-V-v.vtk"
     },
     {
         "@id": "structure86",
@@ -2009,7 +1902,7 @@
         "@id": "dataSource87",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_338_right_VI_v.vtk"
+        "source": "file://slicer/models/Model_338_right-VI-v.vtk"
     },
     {
         "@id": "structure87",
@@ -2029,17 +1922,10 @@
         }
     },
     {
-        "@id": "dataSource88",
-        "@type": "datasource",
-        "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_339_right_VIIAf_v.vtk"
-    },
-    {
         "@id": "structure88",
         "@type": "structure",
         "sourceSelector": {
-            "dataKey": 339,
-            "dataSource": "dataSource88"
+            "dataKey": 339
         },
         "annotation": {
             "name": "right VIIAf v",
@@ -2052,17 +1938,10 @@
         }
     },
     {
-        "@id": "dataSource89",
-        "@type": "datasource",
-        "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_340_right_VIIAt_v.vtk"
-    },
-    {
         "@id": "structure89",
         "@type": "structure",
         "sourceSelector": {
-            "dataKey": 340,
-            "dataSource": "dataSource89"
+            "dataKey": 340
         },
         "annotation": {
             "name": "right VIIAt v",
@@ -2078,7 +1957,7 @@
         "@id": "dataSource90",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_341_right_VIIB_v.vtk"
+        "source": "file://slicer/models/Model_341_right-VIIB-v.vtk"
     },
     {
         "@id": "structure90",
@@ -2101,7 +1980,7 @@
         "@id": "dataSource91",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_342_right_VIIIA_v.vtk"
+        "source": "file://slicer/models/Model_342_right-VIIIA-v.vtk"
     },
     {
         "@id": "structure91",
@@ -2124,7 +2003,7 @@
         "@id": "dataSource92",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_343_right_VIIIB_v.vtk"
+        "source": "file://slicer/models/Model_343_right-VIIIB-v.vtk"
     },
     {
         "@id": "structure92",
@@ -2147,7 +2026,7 @@
         "@id": "dataSource93",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_344_right_IX_v.vtk"
+        "source": "file://slicer/models/Model_344_right-IX-v.vtk"
     },
     {
         "@id": "structure93",
@@ -2170,7 +2049,7 @@
         "@id": "dataSource94",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_345_right_X_v.vtk"
+        "source": "file://slicer/models/Model_345_right-X-v.vtk"
     },
     {
         "@id": "structure94",
@@ -2193,7 +2072,7 @@
         "@id": "dataSource95",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_346_right_III_m.vtk"
+        "source": "file://slicer/models/Model_346_right-III-m.vtk"
     },
     {
         "@id": "structure95",
@@ -2216,7 +2095,7 @@
         "@id": "dataSource96",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_347_right_IV_m.vtk"
+        "source": "file://slicer/models/Model_347_right-IV-m.vtk"
     },
     {
         "@id": "structure96",
@@ -2239,7 +2118,7 @@
         "@id": "dataSource97",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_348_right_V_m.vtk"
+        "source": "file://slicer/models/Model_348_right-V-m.vtk"
     },
     {
         "@id": "structure97",
@@ -2262,7 +2141,7 @@
         "@id": "dataSource98",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_349_right_VI_m.vtk"
+        "source": "file://slicer/models/Model_349_right-VI-m.vtk"
     },
     {
         "@id": "structure98",
@@ -2285,7 +2164,7 @@
         "@id": "dataSource99",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_350_right_VIIA_crusI_m.vtk"
+        "source": "file://slicer/models/Model_350_right-VIIA_crusI-m.vtk"
     },
     {
         "@id": "structure99",
@@ -2308,7 +2187,7 @@
         "@id": "dataSource100",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_351_right_VIIA_crusII_m.vtk"
+        "source": "file://slicer/models/Model_351_right-VIIA_crusII-m.vtk"
     },
     {
         "@id": "structure100",
@@ -2331,7 +2210,7 @@
         "@id": "dataSource101",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_352_right_VIIB_m.vtk"
+        "source": "file://slicer/models/Model_352_right-VIIB-m.vtk"
     },
     {
         "@id": "structure101",
@@ -2354,7 +2233,7 @@
         "@id": "dataSource102",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_353_right_VIIIA_m.vtk"
+        "source": "file://slicer/models/Model_353_right-VIIIA-m.vtk"
     },
     {
         "@id": "structure102",
@@ -2377,7 +2256,7 @@
         "@id": "dataSource103",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_354_right_VIIIB_m.vtk"
+        "source": "file://slicer/models/Model_354_right-VIIIB-m.vtk"
     },
     {
         "@id": "structure103",
@@ -2400,7 +2279,7 @@
         "@id": "dataSource104",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_355_right_IX_m.vtk"
+        "source": "file://slicer/models/Model_355_right-IX-m.vtk"
     },
     {
         "@id": "structure104",
@@ -2420,17 +2299,10 @@
         }
     },
     {
-        "@id": "dataSource105",
-        "@type": "datasource",
-        "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_356_right_X_m.vtk"
-    },
-    {
         "@id": "structure105",
         "@type": "structure",
         "sourceSelector": {
-            "dataKey": 356,
-            "dataSource": "dataSource105"
+            "dataKey": 356
         },
         "annotation": {
             "name": "right X m",
@@ -2446,7 +2318,7 @@
         "@id": "dataSource106",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_357_right_V_l.vtk"
+        "source": "file://slicer/models/Model_357_right-V-l.vtk"
     },
     {
         "@id": "structure106",
@@ -2469,7 +2341,7 @@
         "@id": "dataSource107",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_358_right_VI_l.vtk"
+        "source": "file://slicer/models/Model_358_right-VI-l.vtk"
     },
     {
         "@id": "structure107",
@@ -2492,7 +2364,7 @@
         "@id": "dataSource108",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_361_right_VIIA_crusI_l1.vtk"
+        "source": "file://slicer/models/Model_361_right-VIIA_crusI-l1.vtk"
     },
     {
         "@id": "structure108",
@@ -2515,7 +2387,7 @@
         "@id": "dataSource109",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_362_right_VIIA_crusII_l1.vtk"
+        "source": "file://slicer/models/Model_362_right-VIIA_crusII-l1.vtk"
     },
     {
         "@id": "structure109",
@@ -2538,7 +2410,7 @@
         "@id": "dataSource110",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_363_right_VIIB_l.vtk"
+        "source": "file://slicer/models/Model_363_right-VIIB-l.vtk"
     },
     {
         "@id": "structure110",
@@ -2561,7 +2433,7 @@
         "@id": "dataSource111",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_364_right_VIIIA_l.vtk"
+        "source": "file://slicer/models/Model_364_right-VIIIA-l.vtk"
     },
     {
         "@id": "structure111",
@@ -2584,7 +2456,7 @@
         "@id": "dataSource112",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_365_right_VIIIB_l.vtk"
+        "source": "file://slicer/models/Model_365_right-VIIIB-l.vtk"
     },
     {
         "@id": "structure112",
@@ -2607,7 +2479,7 @@
         "@id": "dataSource113",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_366_right_VIIA_crusI_l2.vtk"
+        "source": "file://slicer/models/Model_366_right-VIIA_crusI-l2.vtk"
     },
     {
         "@id": "structure113",
@@ -2630,7 +2502,7 @@
         "@id": "dataSource114",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_367_right_VIIA_crusII_l2.vtk"
+        "source": "file://slicer/models/Model_367_right-VIIA_crusII-l2.vtk"
     },
     {
         "@id": "structure114",
@@ -2653,7 +2525,7 @@
         "@id": "dataSource115",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_371_left_Dentate_nucleus.vtk"
+        "source": "file://slicer/models/Model_371_left-Dentate-nucleus.vtk"
     },
     {
         "@id": "structure115",
@@ -2676,7 +2548,7 @@
         "@id": "dataSource116",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_373_left_FaGE_nuclei.vtk"
+        "source": "file://slicer/models/Model_373_left-FaGE_nuclei.vtk"
     },
     {
         "@id": "structure116",
@@ -2699,7 +2571,7 @@
         "@id": "dataSource117",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_375_right_Dentate_nucleus.vtk"
+        "source": "file://slicer/models/Model_375_right-Dentate-nucleus.vtk"
     },
     {
         "@id": "structure117",
@@ -2722,7 +2594,7 @@
         "@id": "dataSource118",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_377_right_FaGE_nuclei.vtk"
+        "source": "file://slicer/models/Model_377_right-FaGE_nuclei.vtk"
     },
     {
         "@id": "structure118",
@@ -3619,7 +3491,7 @@
         "@id": "dataSource157",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_1000_unsegmented_region_of_left_insula.vtk"
+        "source": "file://slicer/models/Model_1000_left_insula.vtk"
     },
     {
         "@id": "structure157",
@@ -3780,7 +3652,7 @@
         "@id": "dataSource164",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_1008_unsegmented_region_of_left_inferior_parietal_lobule.vtk"
+        "source": "file://slicer/models/Model_1008_left_inferior_parietal_lobule.vtk"
     },
     {
         "@id": "structure164",
@@ -4401,7 +4273,7 @@
         "@id": "dataSource191",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_1035_limen_of_left_insula.vtk"
+        "source": "file://slicer/models/Model_1035_left_limen_insulae.vtk"
     },
     {
         "@id": "structure191",
@@ -4424,7 +4296,7 @@
         "@id": "dataSource192",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_2000_unsegmented_region_of_right_insula.vtk"
+        "source": "file://slicer/models/Model_2000_right_insula.vtk"
     },
     {
         "@id": "structure192",
@@ -4585,7 +4457,7 @@
         "@id": "dataSource199",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_2008_unsegmented_region_of_right_inferior_parietal_lobule.vtk"
+        "source": "file://slicer/models/Model_2008_right_inferior_parietal_lobule.vtk"
     },
     {
         "@id": "structure199",
@@ -5206,7 +5078,7 @@
         "@id": "dataSource226",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_2035_limen_of_right_insula.vtk"
+        "source": "file://slicer/models/Model_2035_right_limen_insulae.vtk"
     },
     {
         "@id": "structure226",
@@ -5226,17 +5098,10 @@
         }
     },
     {
-        "@id": "dataSource227",
-        "@type": "datasource",
-        "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_2108_right_angular_and_supramarginal_gyri_(obsolete_label).vtk"
-    },
-    {
         "@id": "structure227",
         "@type": "structure",
         "sourceSelector": {
-            "dataKey": 2108,
-            "dataSource": "dataSource227"
+            "dataKey": 2108
         },
         "annotation": {
             "name": "right angular and supramarginal gyri (obsolete label)",
@@ -5459,7 +5324,7 @@
         "@id": "dataSource237",
         "@type": "datasource",
         "mimeType": "application/x-vtk",
-        "source": "file://slicer/models/Model_3012_unsegmented_region_of_neurohypophysis.vtk"
+        "source": "file://slicer/models/Model_3012_neurohypophysis.vtk"
     },
     {
         "@id": "structure237",
