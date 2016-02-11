@@ -80,7 +80,7 @@ Over the years, the original atlas has undergone several revisions. The current 
                 var dataSource = {
                     "@id" : "dataSource"+i,
                     "@type" : "datasource",
-                    "mimeType" : "application/x-vtk",
+                    "mimeType" : "application/octet-stream",
                     "source" : "file://slicer/models/"+fileName
                 };
                 result.push(dataSource);

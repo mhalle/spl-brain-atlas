@@ -14,7 +14,7 @@
     {
         "@id": "dataSource1",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_2_white_matter_of_left_cerebral_hemisphere.vtk"
     },
     {
@@ -37,7 +37,7 @@
     {
         "@id": "dataSource2",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_3_skin.vtk"
     },
     {
@@ -60,7 +60,7 @@
     {
         "@id": "dataSource3",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4_left_lateral_ventricle.vtk"
     },
     {
@@ -83,7 +83,7 @@
     {
         "@id": "dataSource4",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_5_temporal_horn_of_left_lateral_ventricle.vtk"
     },
     {
@@ -106,7 +106,7 @@
     {
         "@id": "dataSource5",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_7_white_matter_of_left_hemisphere_of_cerebellum.vtk"
     },
     {
@@ -161,7 +161,7 @@
     {
         "@id": "dataSource8",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_11_left_caudate_nucleus.vtk"
     },
     {
@@ -184,7 +184,7 @@
     {
         "@id": "dataSource9",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_12_left_putamen.vtk"
     },
     {
@@ -207,7 +207,7 @@
     {
         "@id": "dataSource10",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_13_left_globus_pallidus_pars_externa.vtk"
     },
     {
@@ -230,7 +230,7 @@
     {
         "@id": "dataSource11",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_15_fourth_ventricle.vtk"
     },
     {
@@ -253,7 +253,7 @@
     {
         "@id": "dataSource12",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_17_left_hippocampus.vtk"
     },
     {
@@ -276,7 +276,7 @@
     {
         "@id": "dataSource13",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_18_left_amygdala.vtk"
     },
     {
@@ -299,7 +299,7 @@
     {
         "@id": "dataSource14",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_19_aqueduct.vtk"
     },
     {
@@ -322,7 +322,7 @@
     {
         "@id": "dataSource15",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_24_third_ventricle.vtk"
     },
     {
@@ -345,7 +345,7 @@
     {
         "@id": "dataSource16",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_25_left_globus_pallidus_pars_interna.vtk"
     },
     {
@@ -368,7 +368,7 @@
     {
         "@id": "dataSource17",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_26_left_nucleus_accumbens.vtk"
     },
     {
@@ -455,7 +455,7 @@
     {
         "@id": "dataSource22",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_35_pons.vtk"
     },
     {
@@ -478,7 +478,7 @@
     {
         "@id": "dataSource23",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_40_part_of_midbrain.vtk"
     },
     {
@@ -501,7 +501,7 @@
     {
         "@id": "dataSource24",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_41_white_matter_of_right_cerebral_hemisphere.vtk"
     },
     {
@@ -524,7 +524,7 @@
     {
         "@id": "dataSource25",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_43_right_lateral_ventricle.vtk"
     },
     {
@@ -547,7 +547,7 @@
     {
         "@id": "dataSource26",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_44_temporal_horn_of_right_lateral_ventricle.vtk"
     },
     {
@@ -570,7 +570,7 @@
     {
         "@id": "dataSource27",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_46_white_matter_of_right_hemisphere_of_cerebellum.vtk"
     },
     {
@@ -625,7 +625,7 @@
     {
         "@id": "dataSource30",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_50_right_caudate_nucleus.vtk"
     },
     {
@@ -648,7 +648,7 @@
     {
         "@id": "dataSource31",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_51_right_putamen.vtk"
     },
     {
@@ -671,7 +671,7 @@
     {
         "@id": "dataSource32",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_52_right_globus_pallidus_pars_externa.vtk"
     },
     {
@@ -694,7 +694,7 @@
     {
         "@id": "dataSource33",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_53_right_hippocampus.vtk"
     },
     {
@@ -717,7 +717,7 @@
     {
         "@id": "dataSource34",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_54_right_amygdala.vtk"
     },
     {
@@ -740,7 +740,7 @@
     {
         "@id": "dataSource35",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_58_right_nucleus_accumbens.vtk"
     },
     {
@@ -779,7 +779,7 @@
     {
         "@id": "dataSource37",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_61_medulla_oblongata.vtk"
     },
     {
@@ -818,7 +818,7 @@
     {
         "@id": "dataSource39",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_66_left_substantia_nigra.vtk"
     },
     {
@@ -841,7 +841,7 @@
     {
         "@id": "dataSource40",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_71_right_substantia_nigra.vtk"
     },
     {
@@ -864,7 +864,7 @@
     {
         "@id": "dataSource41",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_72_pineal_body.vtk"
     },
     {
@@ -887,7 +887,7 @@
     {
         "@id": "dataSource42",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_78_left_optic_tract.vtk"
     },
     {
@@ -910,7 +910,7 @@
     {
         "@id": "dataSource43",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_79_left_red_nucleus.vtk"
     },
     {
@@ -933,7 +933,7 @@
     {
         "@id": "dataSource44",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_83_right_globus_pallidus_pars_interna.vtk"
     },
     {
@@ -956,7 +956,7 @@
     {
         "@id": "dataSource45",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_84_right_red_nucleus.vtk"
     },
     {
@@ -979,7 +979,7 @@
     {
         "@id": "dataSource46",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_85_optic_chiasm.vtk"
     },
     {
@@ -1002,7 +1002,7 @@
     {
         "@id": "dataSource47",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_96_pellucid_septum.vtk"
     },
     {
@@ -1025,7 +1025,7 @@
     {
         "@id": "dataSource48",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_100_left_mammillothalamic_tract.vtk"
     },
     {
@@ -1048,7 +1048,7 @@
     {
         "@id": "dataSource49",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_142_anterior_commissure.vtk"
     },
     {
@@ -1071,7 +1071,7 @@
     {
         "@id": "dataSource50",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_200_right_mammillothalamic_tract.vtk"
     },
     {
@@ -1094,7 +1094,7 @@
     {
         "@id": "dataSource51",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_216_right_optic_tract.vtk"
     },
     {
@@ -1117,7 +1117,7 @@
     {
         "@id": "dataSource52",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_301_left-III-v.vtk"
     },
     {
@@ -1140,7 +1140,7 @@
     {
         "@id": "dataSource53",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_302_left-IV-v.vtk"
     },
     {
@@ -1163,7 +1163,7 @@
     {
         "@id": "dataSource54",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_303_left-V-v.vtk"
     },
     {
@@ -1186,7 +1186,7 @@
     {
         "@id": "dataSource55",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_304_left-VI-v.vtk"
     },
     {
@@ -1241,7 +1241,7 @@
     {
         "@id": "dataSource58",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_307_left-VIIB-v.vtk"
     },
     {
@@ -1264,7 +1264,7 @@
     {
         "@id": "dataSource59",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_308_left-VIIIA-v.vtk"
     },
     {
@@ -1287,7 +1287,7 @@
     {
         "@id": "dataSource60",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_309_left-VIIIB-v.vtk"
     },
     {
@@ -1310,7 +1310,7 @@
     {
         "@id": "dataSource61",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_310_left-IX-v.vtk"
     },
     {
@@ -1333,7 +1333,7 @@
     {
         "@id": "dataSource62",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_311_left-X-v.vtk"
     },
     {
@@ -1356,7 +1356,7 @@
     {
         "@id": "dataSource63",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_312_left-III-m.vtk"
     },
     {
@@ -1379,7 +1379,7 @@
     {
         "@id": "dataSource64",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_313_left-IV-m.vtk"
     },
     {
@@ -1402,7 +1402,7 @@
     {
         "@id": "dataSource65",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_314_left-V-m.vtk"
     },
     {
@@ -1425,7 +1425,7 @@
     {
         "@id": "dataSource66",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_315_left-VI-m.vtk"
     },
     {
@@ -1448,7 +1448,7 @@
     {
         "@id": "dataSource67",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_316_left-VIIA_crusI-m.vtk"
     },
     {
@@ -1471,7 +1471,7 @@
     {
         "@id": "dataSource68",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_317_left-VIIA_crusII-m.vtk"
     },
     {
@@ -1494,7 +1494,7 @@
     {
         "@id": "dataSource69",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_318_left-VIIB-m.vtk"
     },
     {
@@ -1517,7 +1517,7 @@
     {
         "@id": "dataSource70",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_319_left-VIIIA-m.vtk"
     },
     {
@@ -1540,7 +1540,7 @@
     {
         "@id": "dataSource71",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_320_left-VIIIB-m.vtk"
     },
     {
@@ -1563,7 +1563,7 @@
     {
         "@id": "dataSource72",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_321_left-IX-m.vtk"
     },
     {
@@ -1602,7 +1602,7 @@
     {
         "@id": "dataSource74",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_323_left-V-l.vtk"
     },
     {
@@ -1625,7 +1625,7 @@
     {
         "@id": "dataSource75",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_324_left-VI-l.vtk"
     },
     {
@@ -1648,7 +1648,7 @@
     {
         "@id": "dataSource76",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_327_left-VIIA_crusI-l1.vtk"
     },
     {
@@ -1671,7 +1671,7 @@
     {
         "@id": "dataSource77",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_328_left-VIIA_crusII-l1.vtk"
     },
     {
@@ -1694,7 +1694,7 @@
     {
         "@id": "dataSource78",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_329_left-VIIB-l.vtk"
     },
     {
@@ -1717,7 +1717,7 @@
     {
         "@id": "dataSource79",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_330_left-VIIIA-l.vtk"
     },
     {
@@ -1740,7 +1740,7 @@
     {
         "@id": "dataSource80",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_331_left-VIIIB-l.vtk"
     },
     {
@@ -1763,7 +1763,7 @@
     {
         "@id": "dataSource81",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_332_left-VIIA_crusI-l2.vtk"
     },
     {
@@ -1786,7 +1786,7 @@
     {
         "@id": "dataSource82",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_333_left-VIIA_crusII-l2.vtk"
     },
     {
@@ -1809,7 +1809,7 @@
     {
         "@id": "dataSource83",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_334_right-I_II-v.vtk"
     },
     {
@@ -1832,7 +1832,7 @@
     {
         "@id": "dataSource84",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_335_right-III-v.vtk"
     },
     {
@@ -1855,7 +1855,7 @@
     {
         "@id": "dataSource85",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_336_right-IV-v.vtk"
     },
     {
@@ -1878,7 +1878,7 @@
     {
         "@id": "dataSource86",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_337_right-V-v.vtk"
     },
     {
@@ -1901,7 +1901,7 @@
     {
         "@id": "dataSource87",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_338_right-VI-v.vtk"
     },
     {
@@ -1956,7 +1956,7 @@
     {
         "@id": "dataSource90",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_341_right-VIIB-v.vtk"
     },
     {
@@ -1979,7 +1979,7 @@
     {
         "@id": "dataSource91",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_342_right-VIIIA-v.vtk"
     },
     {
@@ -2002,7 +2002,7 @@
     {
         "@id": "dataSource92",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_343_right-VIIIB-v.vtk"
     },
     {
@@ -2025,7 +2025,7 @@
     {
         "@id": "dataSource93",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_344_right-IX-v.vtk"
     },
     {
@@ -2048,7 +2048,7 @@
     {
         "@id": "dataSource94",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_345_right-X-v.vtk"
     },
     {
@@ -2071,7 +2071,7 @@
     {
         "@id": "dataSource95",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_346_right-III-m.vtk"
     },
     {
@@ -2094,7 +2094,7 @@
     {
         "@id": "dataSource96",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_347_right-IV-m.vtk"
     },
     {
@@ -2117,7 +2117,7 @@
     {
         "@id": "dataSource97",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_348_right-V-m.vtk"
     },
     {
@@ -2140,7 +2140,7 @@
     {
         "@id": "dataSource98",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_349_right-VI-m.vtk"
     },
     {
@@ -2163,7 +2163,7 @@
     {
         "@id": "dataSource99",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_350_right-VIIA_crusI-m.vtk"
     },
     {
@@ -2186,7 +2186,7 @@
     {
         "@id": "dataSource100",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_351_right-VIIA_crusII-m.vtk"
     },
     {
@@ -2209,7 +2209,7 @@
     {
         "@id": "dataSource101",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_352_right-VIIB-m.vtk"
     },
     {
@@ -2232,7 +2232,7 @@
     {
         "@id": "dataSource102",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_353_right-VIIIA-m.vtk"
     },
     {
@@ -2255,7 +2255,7 @@
     {
         "@id": "dataSource103",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_354_right-VIIIB-m.vtk"
     },
     {
@@ -2278,7 +2278,7 @@
     {
         "@id": "dataSource104",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_355_right-IX-m.vtk"
     },
     {
@@ -2317,7 +2317,7 @@
     {
         "@id": "dataSource106",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_357_right-V-l.vtk"
     },
     {
@@ -2340,7 +2340,7 @@
     {
         "@id": "dataSource107",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_358_right-VI-l.vtk"
     },
     {
@@ -2363,7 +2363,7 @@
     {
         "@id": "dataSource108",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_361_right-VIIA_crusI-l1.vtk"
     },
     {
@@ -2386,7 +2386,7 @@
     {
         "@id": "dataSource109",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_362_right-VIIA_crusII-l1.vtk"
     },
     {
@@ -2409,7 +2409,7 @@
     {
         "@id": "dataSource110",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_363_right-VIIB-l.vtk"
     },
     {
@@ -2432,7 +2432,7 @@
     {
         "@id": "dataSource111",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_364_right-VIIIA-l.vtk"
     },
     {
@@ -2455,7 +2455,7 @@
     {
         "@id": "dataSource112",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_365_right-VIIIB-l.vtk"
     },
     {
@@ -2478,7 +2478,7 @@
     {
         "@id": "dataSource113",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_366_right-VIIA_crusI-l2.vtk"
     },
     {
@@ -2501,7 +2501,7 @@
     {
         "@id": "dataSource114",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_367_right-VIIA_crusII-l2.vtk"
     },
     {
@@ -2524,7 +2524,7 @@
     {
         "@id": "dataSource115",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_371_left-Dentate-nucleus.vtk"
     },
     {
@@ -2547,7 +2547,7 @@
     {
         "@id": "dataSource116",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_373_left-FaGE_nuclei.vtk"
     },
     {
@@ -2570,7 +2570,7 @@
     {
         "@id": "dataSource117",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_375_right-Dentate-nucleus.vtk"
     },
     {
@@ -2593,7 +2593,7 @@
     {
         "@id": "dataSource118",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_377_right-FaGE_nuclei.vtk"
     },
     {
@@ -2616,7 +2616,7 @@
     {
         "@id": "dataSource119",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_380_left_anterior_superior_hypothalamus.vtk"
     },
     {
@@ -2639,7 +2639,7 @@
     {
         "@id": "dataSource120",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_381_left_anterior_inferior_hypothalamus.vtk"
     },
     {
@@ -2662,7 +2662,7 @@
     {
         "@id": "dataSource121",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_382_left_superior_tuberal_hypothalamus.vtk"
     },
     {
@@ -2685,7 +2685,7 @@
     {
         "@id": "dataSource122",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_383_left_inferior_tuberal_hypothalamus.vtk"
     },
     {
@@ -2708,7 +2708,7 @@
     {
         "@id": "dataSource123",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_384_left_posterior_superior_hypothalamus.vtk"
     },
     {
@@ -2731,7 +2731,7 @@
     {
         "@id": "dataSource124",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_385_right_anterior_superior_hypothalamus.vtk"
     },
     {
@@ -2754,7 +2754,7 @@
     {
         "@id": "dataSource125",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_386_right_anterior_inferior_hypothalamus.vtk"
     },
     {
@@ -2777,7 +2777,7 @@
     {
         "@id": "dataSource126",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_387_right_superior_tuberal_hypothalamus.vtk"
     },
     {
@@ -2800,7 +2800,7 @@
     {
         "@id": "dataSource127",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_388_right_inferior_tuberal_hypothalamus.vtk"
     },
     {
@@ -2823,7 +2823,7 @@
     {
         "@id": "dataSource128",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_389_right_posterior_superior_hypothalamus.vtk"
     },
     {
@@ -2846,7 +2846,7 @@
     {
         "@id": "dataSource129",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_390_right_subthalamic_nucleus.vtk"
     },
     {
@@ -2869,7 +2869,7 @@
     {
         "@id": "dataSource130",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_391_left_subthalamic_nucleus.vtk"
     },
     {
@@ -2892,7 +2892,7 @@
     {
         "@id": "dataSource131",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_500_right_internal_medullary_lamina.vtk"
     },
     {
@@ -2915,7 +2915,7 @@
     {
         "@id": "dataSource132",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_501_left_internal_medullary_lamina.vtk"
     },
     {
@@ -2938,7 +2938,7 @@
     {
         "@id": "dataSource133",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_502_right_medial_geniculate_body.vtk"
     },
     {
@@ -2961,7 +2961,7 @@
     {
         "@id": "dataSource134",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_503_left_medial_geniculate_body.vtk"
     },
     {
@@ -2984,7 +2984,7 @@
     {
         "@id": "dataSource135",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_504_right_lateral_geniculate_body.vtk"
     },
     {
@@ -3007,7 +3007,7 @@
     {
         "@id": "dataSource136",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_505_left_lateral_geniculate_body.vtk"
     },
     {
@@ -3030,7 +3030,7 @@
     {
         "@id": "dataSource137",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_506_right_pulvinar.vtk"
     },
     {
@@ -3053,7 +3053,7 @@
     {
         "@id": "dataSource138",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_507_left_pulvinar.vtk"
     },
     {
@@ -3076,7 +3076,7 @@
     {
         "@id": "dataSource139",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_508_right_anterior_thalamic_nucleus.vtk"
     },
     {
@@ -3099,7 +3099,7 @@
     {
         "@id": "dataSource140",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_509_left_anterior_thalamic_nucleus.vtk"
     },
     {
@@ -3122,7 +3122,7 @@
     {
         "@id": "dataSource141",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_510_right_dorsomedial_thalamic_nucleus.vtk"
     },
     {
@@ -3145,7 +3145,7 @@
     {
         "@id": "dataSource142",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_511_left_dorsomedial_thalamic_nucleus.vtk"
     },
     {
@@ -3168,7 +3168,7 @@
     {
         "@id": "dataSource143",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_512_right_centromedian_thalamic_nucleus.vtk"
     },
     {
@@ -3191,7 +3191,7 @@
     {
         "@id": "dataSource144",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_513_left_centromedian_thalamic_nucleus.vtk"
     },
     {
@@ -3214,7 +3214,7 @@
     {
         "@id": "dataSource145",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_514_right_ventral_anterior_thalamic_nucleus.vtk"
     },
     {
@@ -3237,7 +3237,7 @@
     {
         "@id": "dataSource146",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_515_left_ventral_anterior_thalamic_nucleus.vtk"
     },
     {
@@ -3260,7 +3260,7 @@
     {
         "@id": "dataSource147",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_516_right_ventral_lateral_thalamic_nucleus.vtk"
     },
     {
@@ -3283,7 +3283,7 @@
     {
         "@id": "dataSource148",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_517_left_ventral_lateral_thalamic_nucleus.vtk"
     },
     {
@@ -3306,7 +3306,7 @@
     {
         "@id": "dataSource149",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_518_right_lateral_posterior_thalamic_nucleus.vtk"
     },
     {
@@ -3329,7 +3329,7 @@
     {
         "@id": "dataSource150",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_519_left_lateral_posterior_thalamic_nucleus.vtk"
     },
     {
@@ -3352,7 +3352,7 @@
     {
         "@id": "dataSource151",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_520_right_lateral_dorsal_thalamic_nucleus.vtk"
     },
     {
@@ -3375,7 +3375,7 @@
     {
         "@id": "dataSource152",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_521_left_lateral_dorsal_thalamic_nucleus.vtk"
     },
     {
@@ -3398,7 +3398,7 @@
     {
         "@id": "dataSource153",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_522_right_ventral_posteromedial_thalamic_nucleus.vtk"
     },
     {
@@ -3421,7 +3421,7 @@
     {
         "@id": "dataSource154",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_523_left_ventral_posteromedial_thalamic_nucleus.vtk"
     },
     {
@@ -3444,7 +3444,7 @@
     {
         "@id": "dataSource155",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_524_right_ventral_posterolateral_thalamic_nucleus.vtk"
     },
     {
@@ -3467,7 +3467,7 @@
     {
         "@id": "dataSource156",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_525_left_ventral_posterolateral_thalamic_nucleus.vtk"
     },
     {
@@ -3490,7 +3490,7 @@
     {
         "@id": "dataSource157",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_1000_left_insula.vtk"
     },
     {
@@ -3513,7 +3513,7 @@
     {
         "@id": "dataSource158",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_1001_left_superior_temporal_gyrus_(banks_of_left_superior_temporal_sulcus).vtk"
     },
     {
@@ -3536,7 +3536,7 @@
     {
         "@id": "dataSource159",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_1002_caudal_part_of_left_anterior_cingulate_gyrus.vtk"
     },
     {
@@ -3559,7 +3559,7 @@
     {
         "@id": "dataSource160",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_1003_posterior_part_of_left_middle_frontal_gyrus.vtk"
     },
     {
@@ -3582,7 +3582,7 @@
     {
         "@id": "dataSource161",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_1005_left_cuneus.vtk"
     },
     {
@@ -3605,7 +3605,7 @@
     {
         "@id": "dataSource162",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_1006_left_ambiens_gyrus.vtk"
     },
     {
@@ -3628,7 +3628,7 @@
     {
         "@id": "dataSource163",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_1007_left_fusiform_gyrus.vtk"
     },
     {
@@ -3651,7 +3651,7 @@
     {
         "@id": "dataSource164",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_1008_left_inferior_parietal_lobule.vtk"
     },
     {
@@ -3674,7 +3674,7 @@
     {
         "@id": "dataSource165",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_1009_left_inferior_temporal_gyrus.vtk"
     },
     {
@@ -3697,7 +3697,7 @@
     {
         "@id": "dataSource166",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_1010_isthmus_of_left_cingulate_gyrus.vtk"
     },
     {
@@ -3720,7 +3720,7 @@
     {
         "@id": "dataSource167",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_1011_left_lateral_occipital_gyrus.vtk"
     },
     {
@@ -3743,7 +3743,7 @@
     {
         "@id": "dataSource168",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_1012_left_lateral_orbital_gyrus.vtk"
     },
     {
@@ -3766,7 +3766,7 @@
     {
         "@id": "dataSource169",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_1013_left_lingual_gyrus.vtk"
     },
     {
@@ -3789,7 +3789,7 @@
     {
         "@id": "dataSource170",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_1014_left_straight_gyrus.vtk"
     },
     {
@@ -3812,7 +3812,7 @@
     {
         "@id": "dataSource171",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_1015_left_middle_temporal_gyrus.vtk"
     },
     {
@@ -3835,7 +3835,7 @@
     {
         "@id": "dataSource172",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_1016_left_parahippocampal_gyrus.vtk"
     },
     {
@@ -3858,7 +3858,7 @@
     {
         "@id": "dataSource173",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_1017_left_paracentral_lobule.vtk"
     },
     {
@@ -3881,7 +3881,7 @@
     {
         "@id": "dataSource174",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_1018_opercular_part_of_left_inferior_frontal_gyrus.vtk"
     },
     {
@@ -3904,7 +3904,7 @@
     {
         "@id": "dataSource175",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_1019_orbital_part_of_left_inferior_frontal_gyrus.vtk"
     },
     {
@@ -3927,7 +3927,7 @@
     {
         "@id": "dataSource176",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_1020_triangular_part_of_left_inferior_frontal_gyrus.vtk"
     },
     {
@@ -3950,7 +3950,7 @@
     {
         "@id": "dataSource177",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_1021_left_visual_cortex.vtk"
     },
     {
@@ -3973,7 +3973,7 @@
     {
         "@id": "dataSource178",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_1022_left_postcentral_gyrus.vtk"
     },
     {
@@ -3996,7 +3996,7 @@
     {
         "@id": "dataSource179",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_1023_left_posterior_cingulate_gyrus.vtk"
     },
     {
@@ -4019,7 +4019,7 @@
     {
         "@id": "dataSource180",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_1024_left_precentral_gyrus.vtk"
     },
     {
@@ -4042,7 +4042,7 @@
     {
         "@id": "dataSource181",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_1025_left_precuneus.vtk"
     },
     {
@@ -4065,7 +4065,7 @@
     {
         "@id": "dataSource182",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_1026_rostral_part_of_left_anterior_cingulate_gyrus.vtk"
     },
     {
@@ -4088,7 +4088,7 @@
     {
         "@id": "dataSource183",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_1027_anterior_part_of_left_middle_frontal_gyrus.vtk"
     },
     {
@@ -4111,7 +4111,7 @@
     {
         "@id": "dataSource184",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_1028_left_superior_frontal_gyrus.vtk"
     },
     {
@@ -4134,7 +4134,7 @@
     {
         "@id": "dataSource185",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_1029_left_superior_parietal_lobule.vtk"
     },
     {
@@ -4157,7 +4157,7 @@
     {
         "@id": "dataSource186",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_1030_left_superior_temporal_gyrus.vtk"
     },
     {
@@ -4180,7 +4180,7 @@
     {
         "@id": "dataSource187",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_1031_left_supramarginal_gyrus.vtk"
     },
     {
@@ -4203,7 +4203,7 @@
     {
         "@id": "dataSource188",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_1032_left_frontal_pole.vtk"
     },
     {
@@ -4226,7 +4226,7 @@
     {
         "@id": "dataSource189",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_1033_left_temporal_pole.vtk"
     },
     {
@@ -4249,7 +4249,7 @@
     {
         "@id": "dataSource190",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_1034_left_transverse_temporal_gyrus.vtk"
     },
     {
@@ -4272,7 +4272,7 @@
     {
         "@id": "dataSource191",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_1035_left_limen_insulae.vtk"
     },
     {
@@ -4295,7 +4295,7 @@
     {
         "@id": "dataSource192",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_2000_right_insula.vtk"
     },
     {
@@ -4318,7 +4318,7 @@
     {
         "@id": "dataSource193",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_2001_right_superior_temporal_gyrus_(banks_of_right_superior_temporal_sulcus).vtk"
     },
     {
@@ -4341,7 +4341,7 @@
     {
         "@id": "dataSource194",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_2002_caudal_part_of_right_anterior_cingulate_gyrus.vtk"
     },
     {
@@ -4364,7 +4364,7 @@
     {
         "@id": "dataSource195",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_2003_posterior_part_of_right_middle_frontal_gyrus.vtk"
     },
     {
@@ -4387,7 +4387,7 @@
     {
         "@id": "dataSource196",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_2005_right_cuneus.vtk"
     },
     {
@@ -4410,7 +4410,7 @@
     {
         "@id": "dataSource197",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_2006_right_ambiens_gyrus.vtk"
     },
     {
@@ -4433,7 +4433,7 @@
     {
         "@id": "dataSource198",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_2007_right_fusiform_gyrus.vtk"
     },
     {
@@ -4456,7 +4456,7 @@
     {
         "@id": "dataSource199",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_2008_right_inferior_parietal_lobule.vtk"
     },
     {
@@ -4479,7 +4479,7 @@
     {
         "@id": "dataSource200",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_2009_right_inferior_temporal_gyrus.vtk"
     },
     {
@@ -4502,7 +4502,7 @@
     {
         "@id": "dataSource201",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_2010_isthmus_of_right_cingulate_gyrus.vtk"
     },
     {
@@ -4525,7 +4525,7 @@
     {
         "@id": "dataSource202",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_2011_right_lateral_occipital_gyrus.vtk"
     },
     {
@@ -4548,7 +4548,7 @@
     {
         "@id": "dataSource203",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_2012_right_lateral_orbital_gyrus.vtk"
     },
     {
@@ -4571,7 +4571,7 @@
     {
         "@id": "dataSource204",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_2013_right_lingual_gyrus.vtk"
     },
     {
@@ -4594,7 +4594,7 @@
     {
         "@id": "dataSource205",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_2014_right_straight_gyrus.vtk"
     },
     {
@@ -4617,7 +4617,7 @@
     {
         "@id": "dataSource206",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_2015_right_middle_temporal_gyrus.vtk"
     },
     {
@@ -4640,7 +4640,7 @@
     {
         "@id": "dataSource207",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_2016_right_parahippocampal_gyrus.vtk"
     },
     {
@@ -4663,7 +4663,7 @@
     {
         "@id": "dataSource208",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_2017_right_paracentral_lobule.vtk"
     },
     {
@@ -4686,7 +4686,7 @@
     {
         "@id": "dataSource209",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_2018_opercular_part_of_right_inferior_frontal_gyrus.vtk"
     },
     {
@@ -4709,7 +4709,7 @@
     {
         "@id": "dataSource210",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_2019_orbital_part_of_right_inferior_frontal_gyrus.vtk"
     },
     {
@@ -4732,7 +4732,7 @@
     {
         "@id": "dataSource211",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_2020_triangular_part_of_right_inferior_frontal_gyrus.vtk"
     },
     {
@@ -4755,7 +4755,7 @@
     {
         "@id": "dataSource212",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_2021_right_visual_cortex.vtk"
     },
     {
@@ -4778,7 +4778,7 @@
     {
         "@id": "dataSource213",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_2022_right_postcentral_gyrus.vtk"
     },
     {
@@ -4801,7 +4801,7 @@
     {
         "@id": "dataSource214",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_2023_right_posterior_cingulate_gyrus.vtk"
     },
     {
@@ -4824,7 +4824,7 @@
     {
         "@id": "dataSource215",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_2024_right_precentral_gyrus.vtk"
     },
     {
@@ -4847,7 +4847,7 @@
     {
         "@id": "dataSource216",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_2025_right_precuneus.vtk"
     },
     {
@@ -4870,7 +4870,7 @@
     {
         "@id": "dataSource217",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_2026_rostral_part_of_right_anterior_cingulate_gyrus.vtk"
     },
     {
@@ -4893,7 +4893,7 @@
     {
         "@id": "dataSource218",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_2027_anterior_part_of_right_middle_frontal_gyrus.vtk"
     },
     {
@@ -4916,7 +4916,7 @@
     {
         "@id": "dataSource219",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_2028_right_superior_frontal_gyrus.vtk"
     },
     {
@@ -4939,7 +4939,7 @@
     {
         "@id": "dataSource220",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_2029_right_superior_parietal_lobule.vtk"
     },
     {
@@ -4962,7 +4962,7 @@
     {
         "@id": "dataSource221",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_2030_right_superior_temporal_gyrus.vtk"
     },
     {
@@ -4985,7 +4985,7 @@
     {
         "@id": "dataSource222",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_2031_right_supramarginal_gyrus.vtk"
     },
     {
@@ -5008,7 +5008,7 @@
     {
         "@id": "dataSource223",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_2032_right_frontal_pole.vtk"
     },
     {
@@ -5031,7 +5031,7 @@
     {
         "@id": "dataSource224",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_2033_right_temporal_pole.vtk"
     },
     {
@@ -5054,7 +5054,7 @@
     {
         "@id": "dataSource225",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_2034_right_transverse_temporal_gyrus.vtk"
     },
     {
@@ -5077,7 +5077,7 @@
     {
         "@id": "dataSource226",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_2035_right_limen_insulae.vtk"
     },
     {
@@ -5116,7 +5116,7 @@
     {
         "@id": "dataSource228",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_3000_right_claustrum.vtk"
     },
     {
@@ -5139,7 +5139,7 @@
     {
         "@id": "dataSource229",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_3001_left_claustrum.vtk"
     },
     {
@@ -5162,7 +5162,7 @@
     {
         "@id": "dataSource230",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_3002_right_mammillary_body.vtk"
     },
     {
@@ -5185,7 +5185,7 @@
     {
         "@id": "dataSource231",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_3003_left_mammillary_body.vtk"
     },
     {
@@ -5208,7 +5208,7 @@
     {
         "@id": "dataSource232",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_3004_corpus_callosum.vtk"
     },
     {
@@ -5231,7 +5231,7 @@
     {
         "@id": "dataSource233",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_3005_right_fornix_of_forebrain.vtk"
     },
     {
@@ -5254,7 +5254,7 @@
     {
         "@id": "dataSource234",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_3007_left_fornix_of_forebrain.vtk"
     },
     {
@@ -5277,7 +5277,7 @@
     {
         "@id": "dataSource235",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_3008_infundibulum_of_neurohypophysis.vtk"
     },
     {
@@ -5300,7 +5300,7 @@
     {
         "@id": "dataSource236",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_3011_adenohypophysis.vtk"
     },
     {
@@ -5323,7 +5323,7 @@
     {
         "@id": "dataSource237",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_3012_neurohypophysis.vtk"
     },
     {
@@ -5346,7 +5346,7 @@
     {
         "@id": "dataSource238",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4001_left_temporalis.vtk"
     },
     {
@@ -5369,7 +5369,7 @@
     {
         "@id": "dataSource239",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4002_right_temporalis.vtk"
     },
     {
@@ -5392,7 +5392,7 @@
     {
         "@id": "dataSource240",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4003_left_masseter.vtk"
     },
     {
@@ -5415,7 +5415,7 @@
     {
         "@id": "dataSource241",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4004_right_masseter.vtk"
     },
     {
@@ -5438,7 +5438,7 @@
     {
         "@id": "dataSource242",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4005_left_lateral_pterygoid.vtk"
     },
     {
@@ -5461,7 +5461,7 @@
     {
         "@id": "dataSource243",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4006_right_lateral_pterygoid.vtk"
     },
     {
@@ -5484,7 +5484,7 @@
     {
         "@id": "dataSource244",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4007_left_medial_pterygoid.vtk"
     },
     {
@@ -5507,7 +5507,7 @@
     {
         "@id": "dataSource245",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4008_right_medial_pterygoid.vtk"
     },
     {
@@ -5530,7 +5530,7 @@
     {
         "@id": "dataSource246",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4011_left_medial_rectus.vtk"
     },
     {
@@ -5553,7 +5553,7 @@
     {
         "@id": "dataSource247",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4012_right_medial_rectus.vtk"
     },
     {
@@ -5576,7 +5576,7 @@
     {
         "@id": "dataSource248",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4013_left_superior_rectus.vtk"
     },
     {
@@ -5599,7 +5599,7 @@
     {
         "@id": "dataSource249",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4014_right_superior_rectus.vtk"
     },
     {
@@ -5622,7 +5622,7 @@
     {
         "@id": "dataSource250",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4015_left_superior_oblique.vtk"
     },
     {
@@ -5645,7 +5645,7 @@
     {
         "@id": "dataSource251",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4016_right_superior_oblique.vtk"
     },
     {
@@ -5668,7 +5668,7 @@
     {
         "@id": "dataSource252",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4017_left_inferior_rectus.vtk"
     },
     {
@@ -5691,7 +5691,7 @@
     {
         "@id": "dataSource253",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4018_right_inferior_rectus.vtk"
     },
     {
@@ -5714,7 +5714,7 @@
     {
         "@id": "dataSource254",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4019_left_lateral_rectus.vtk"
     },
     {
@@ -5737,7 +5737,7 @@
     {
         "@id": "dataSource255",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4020_right_lateral_rectus.vtk"
     },
     {
@@ -5760,7 +5760,7 @@
     {
         "@id": "dataSource256",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4021_left_levator_palpebrae_superioris.vtk"
     },
     {
@@ -5783,7 +5783,7 @@
     {
         "@id": "dataSource257",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4022_right_levator_palpebrae_superioris.vtk"
     },
     {
@@ -5806,7 +5806,7 @@
     {
         "@id": "dataSource258",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4027_left_eyeball.vtk"
     },
     {
@@ -5829,7 +5829,7 @@
     {
         "@id": "dataSource259",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4028_right_eyeball.vtk"
     },
     {
@@ -5852,7 +5852,7 @@
     {
         "@id": "dataSource260",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4030_uvula.vtk"
     },
     {
@@ -5875,7 +5875,7 @@
     {
         "@id": "dataSource261",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4031_left_tensor_veli_palatini.vtk"
     },
     {
@@ -5898,7 +5898,7 @@
     {
         "@id": "dataSource262",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4032_right_tensor_veli_palatini.vtk"
     },
     {
@@ -5921,7 +5921,7 @@
     {
         "@id": "dataSource263",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4033_left_palatoglossus.vtk"
     },
     {
@@ -5944,7 +5944,7 @@
     {
         "@id": "dataSource264",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4034_right_palatoglossus.vtk"
     },
     {
@@ -5967,7 +5967,7 @@
     {
         "@id": "dataSource265",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4035_left_levator_veli_palatini.vtk"
     },
     {
@@ -5990,7 +5990,7 @@
     {
         "@id": "dataSource266",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4036_right_levator_veli_palatini.vtk"
     },
     {
@@ -6013,7 +6013,7 @@
     {
         "@id": "dataSource267",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4037_left_palatopharyngeus.vtk"
     },
     {
@@ -6036,7 +6036,7 @@
     {
         "@id": "dataSource268",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4038_right_palatopharyngeus.vtk"
     },
     {
@@ -6059,7 +6059,7 @@
     {
         "@id": "dataSource269",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4041_left_zygomaticus_major.vtk"
     },
     {
@@ -6082,7 +6082,7 @@
     {
         "@id": "dataSource270",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4042_right_zygomaticus_major.vtk"
     },
     {
@@ -6105,7 +6105,7 @@
     {
         "@id": "dataSource271",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4043_left_nasalis.vtk"
     },
     {
@@ -6128,7 +6128,7 @@
     {
         "@id": "dataSource272",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4044_right_nasalis.vtk"
     },
     {
@@ -6151,7 +6151,7 @@
     {
         "@id": "dataSource273",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4045_left_levator_labii_superioris.vtk"
     },
     {
@@ -6174,7 +6174,7 @@
     {
         "@id": "dataSource274",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4046_right_levator_labii_superioris.vtk"
     },
     {
@@ -6197,7 +6197,7 @@
     {
         "@id": "dataSource275",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4047_left_buccinator.vtk"
     },
     {
@@ -6220,7 +6220,7 @@
     {
         "@id": "dataSource276",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4048_right_buccinator.vtk"
     },
     {
@@ -6243,7 +6243,7 @@
     {
         "@id": "dataSource277",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4050_tongue.vtk"
     },
     {
@@ -6266,7 +6266,7 @@
     {
         "@id": "dataSource278",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4051_left_hyoglossus.vtk"
     },
     {
@@ -6289,7 +6289,7 @@
     {
         "@id": "dataSource279",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4052_right_hyoglossus.vtk"
     },
     {
@@ -6312,7 +6312,7 @@
     {
         "@id": "dataSource280",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4060_middle_constrictor.vtk"
     },
     {
@@ -6335,7 +6335,7 @@
     {
         "@id": "dataSource281",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4061_left_stylopharyngeus.vtk"
     },
     {
@@ -6358,7 +6358,7 @@
     {
         "@id": "dataSource282",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4062_right_stylopharyngeus.vtk"
     },
     {
@@ -6381,7 +6381,7 @@
     {
         "@id": "dataSource283",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4071_left_rectus_capitis_posterior_minor.vtk"
     },
     {
@@ -6404,7 +6404,7 @@
     {
         "@id": "dataSource284",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4072_right_rectus_capitis_posterior_minor.vtk"
     },
     {
@@ -6427,7 +6427,7 @@
     {
         "@id": "dataSource285",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4073_left_longissimus_capitis.vtk"
     },
     {
@@ -6450,7 +6450,7 @@
     {
         "@id": "dataSource286",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4074_right_longissimus_capitis.vtk"
     },
     {
@@ -6473,7 +6473,7 @@
     {
         "@id": "dataSource287",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4075_left_semispinalis_capitis.vtk"
     },
     {
@@ -6496,7 +6496,7 @@
     {
         "@id": "dataSource288",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4076_right_semispinalis_capitis.vtk"
     },
     {
@@ -6519,7 +6519,7 @@
     {
         "@id": "dataSource289",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4077_left_longus_colli.vtk"
     },
     {
@@ -6542,7 +6542,7 @@
     {
         "@id": "dataSource290",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4078_right_longus_colli.vtk"
     },
     {
@@ -6565,7 +6565,7 @@
     {
         "@id": "dataSource291",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4079_left_superior_oblique_capitis.vtk"
     },
     {
@@ -6588,7 +6588,7 @@
     {
         "@id": "dataSource292",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4080_right_superior_oblique_capitis.vtk"
     },
     {
@@ -6611,7 +6611,7 @@
     {
         "@id": "dataSource293",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4081_left_stylohyoid.vtk"
     },
     {
@@ -6634,7 +6634,7 @@
     {
         "@id": "dataSource294",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4082_right_stylohyoid.vtk"
     },
     {
@@ -6657,7 +6657,7 @@
     {
         "@id": "dataSource295",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4083_left_anterior_rectus_capitis.vtk"
     },
     {
@@ -6680,7 +6680,7 @@
     {
         "@id": "dataSource296",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4084_right_anterior_rectus_capitis.vtk"
     },
     {
@@ -6703,7 +6703,7 @@
     {
         "@id": "dataSource297",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4085_left_trapezius.vtk"
     },
     {
@@ -6726,7 +6726,7 @@
     {
         "@id": "dataSource298",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4086_right_trapezius.vtk"
     },
     {
@@ -6749,7 +6749,7 @@
     {
         "@id": "dataSource299",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4087_left_longus_capitis.vtk"
     },
     {
@@ -6772,7 +6772,7 @@
     {
         "@id": "dataSource300",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4088_right_longus_capitis.vtk"
     },
     {
@@ -6795,7 +6795,7 @@
     {
         "@id": "dataSource301",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4089_left_sternocleidomastoid.vtk"
     },
     {
@@ -6818,7 +6818,7 @@
     {
         "@id": "dataSource302",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4090_right_sternocleidomastoid.vtk"
     },
     {
@@ -6841,7 +6841,7 @@
     {
         "@id": "dataSource303",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4091_left_middle_scalenus.vtk"
     },
     {
@@ -6864,7 +6864,7 @@
     {
         "@id": "dataSource304",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4092_right_middle_scalenus.vtk"
     },
     {
@@ -6887,7 +6887,7 @@
     {
         "@id": "dataSource305",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4093_left_digastric.vtk"
     },
     {
@@ -6910,7 +6910,7 @@
     {
         "@id": "dataSource306",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4094_right_digastric.vtk"
     },
     {
@@ -6933,7 +6933,7 @@
     {
         "@id": "dataSource307",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4095_left_splenius_capitis.vtk"
     },
     {
@@ -6956,7 +6956,7 @@
     {
         "@id": "dataSource308",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4096_right_splenius_capitis.vtk"
     },
     {
@@ -6979,7 +6979,7 @@
     {
         "@id": "dataSource309",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4097_left_inferior_oblique_capitis.vtk"
     },
     {
@@ -7002,7 +7002,7 @@
     {
         "@id": "dataSource310",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4098_right_inferior_oblique_capitis.vtk"
     },
     {
@@ -7025,7 +7025,7 @@
     {
         "@id": "dataSource311",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4099_left_rectus_capitis_posterior_major.vtk"
     },
     {
@@ -7048,7 +7048,7 @@
     {
         "@id": "dataSource312",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_4100_right_rectus_capitis_posterior_major.vtk"
     },
     {
@@ -7071,7 +7071,7 @@
     {
         "@id": "dataSource313",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_5001_left_calcarine_sulcus.vtk"
     },
     {
@@ -7094,7 +7094,7 @@
     {
         "@id": "dataSource314",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_5002_right_calcarine_sulcus.vtk"
     },
     {
@@ -7117,7 +7117,7 @@
     {
         "@id": "dataSource315",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_5003_left_central_sulcus.vtk"
     },
     {
@@ -7140,7 +7140,7 @@
     {
         "@id": "dataSource316",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_5004_right_central_sulcus.vtk"
     },
     {
@@ -7163,7 +7163,7 @@
     {
         "@id": "dataSource317",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_5005_left_cingulate_sulcus.vtk"
     },
     {
@@ -7186,7 +7186,7 @@
     {
         "@id": "dataSource318",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_5006_right_cingulate_sulcus.vtk"
     },
     {
@@ -7209,7 +7209,7 @@
     {
         "@id": "dataSource319",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_5007_left_collateral_sulcus.vtk"
     },
     {
@@ -7232,7 +7232,7 @@
     {
         "@id": "dataSource320",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_5008_right_collateral_sulcus.vtk"
     },
     {
@@ -7255,7 +7255,7 @@
     {
         "@id": "dataSource321",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_5009_left_inferior_frontal_sulcus.vtk"
     },
     {
@@ -7278,7 +7278,7 @@
     {
         "@id": "dataSource322",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_5010_right_inferior_frontal_sulcus.vtk"
     },
     {
@@ -7301,7 +7301,7 @@
     {
         "@id": "dataSource323",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_5011_left_intraparietal_sulcus.vtk"
     },
     {
@@ -7324,7 +7324,7 @@
     {
         "@id": "dataSource324",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_5012_right_intraparietal_sulcus.vtk"
     },
     {
@@ -7347,7 +7347,7 @@
     {
         "@id": "dataSource325",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_5013_left_parieto-occipital_sulcus.vtk"
     },
     {
@@ -7370,7 +7370,7 @@
     {
         "@id": "dataSource326",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_5014_right_parieto-occipital_sulcus.vtk"
     },
     {
@@ -7393,7 +7393,7 @@
     {
         "@id": "dataSource327",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_5015_left_postcentral_sulcus.vtk"
     },
     {
@@ -7416,7 +7416,7 @@
     {
         "@id": "dataSource328",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_5016_right_postcentral_sulcus.vtk"
     },
     {
@@ -7439,7 +7439,7 @@
     {
         "@id": "dataSource329",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_5017_left_precentral_sulcus.vtk"
     },
     {
@@ -7462,7 +7462,7 @@
     {
         "@id": "dataSource330",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_5018_right_precentral_sulcus.vtk"
     },
     {
@@ -7485,7 +7485,7 @@
     {
         "@id": "dataSource331",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_5019_left_superior_frontal_sulcus.vtk"
     },
     {
@@ -7508,7 +7508,7 @@
     {
         "@id": "dataSource332",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_5020_right_superior_frontal_sulcus.vtk"
     },
     {
@@ -7531,7 +7531,7 @@
     {
         "@id": "dataSource333",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_5021_left_superior_temporal_sulcus.vtk"
     },
     {
@@ -7554,7 +7554,7 @@
     {
         "@id": "dataSource334",
         "@type": "datasource",
-        "mimeType": "application/x-vtk",
+        "mimeType": "application/octet-stream",
         "source": "file://slicer/models/Model_5022_right_superior_temporal_sulcus.vtk"
     },
     {
