@@ -12,6 +12,10 @@
   },
   "devDependencies": {},
   "dependencies": {
-      "tsv" : ">=0.2.0"
+      "tsv" : ">=0.2.0",
+      "uuid" : ">=2.0.1",
+      "nrrd-js" : ">=0.2.1",
+      "ndarray" : ">=1.0.18",
+      "chalk" : ">=1.1.1"
   }
 }
