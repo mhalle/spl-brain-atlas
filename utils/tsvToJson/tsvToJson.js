@@ -293,7 +293,6 @@ function nrrdParser (err, data, resultObject, fileName) {
 
 //---------------------------------- NRRD CONVERSION FROM TSV DESCRIPTION TO JSON -----------------------------------//
 function nrrdConversion () {
-    debugger;
     if (hncma.data && skin.data && hncmaAtlasTSV && hncmaColorTable) {
         var hncmaDataSource = {
             "@id" : uuid.v4(),
@@ -309,7 +308,7 @@ function nrrdConversion () {
         };
 
         console.log(successLog('2 data sources created from nrrd files'));
-
+        //----------------------------- CREATE STRUCTURE AND ADD THE CORRESPONDING FILE -----------------------------//
         var entriesWithoutNRRDMatch = [];
         for (var i = 1; i < hncmaAtlasTSV.length; i++) {
             var structure = {
@@ -346,6 +345,27 @@ function nrrdConversion () {
         if (entriesWithoutNRRDMatch.length >0) {
             console.log(warningLog('Warning : ')," no match found in the nrrd files for these structure : ", JSON.stringify(entriesWithoutNRRDMatch.map((e)=>e.label), null, 4));
         }
+        
+        
+        //--------------- CHECK IF THERE IS LABEL IN THE NRRD FILES THAT ARE NOT IN THE DESCRIPTION -----------------//
+        var valuesNotReferenced = [];
+        for (var value in hncma.labels) {
+            var filteredEntries = hncmaAtlasTSV.filter((e) => e.value === Number(value));
+            if (filteredEntries.length <1) {
+                valuesNotReferenced.push(value);
+            }
+        }
+        for (var value in skin.labels) {
+            var filteredEntries = hncmaAtlasTSV.filter((e) => e.value === Number(value));
+            if (filteredEntries.length <1) {
+                valuesNotReferenced.push(value);
+            }
+        }
+        if (valuesNotReferenced.length > 0) {
+            console.log(warningLog('Warning : '), ' The following values have been found the nrrd files but are not referenced in the tsv file', valuesNotReferenced);
+        }
+        
+        
         nrrdConversion.done = true;
         writeJSONFile();
     }
