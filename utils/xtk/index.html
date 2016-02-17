@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
+        <script type="text/javascript" src="xtk.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+
+    </head>
+    <body ng-app="myApp">
+        <div id="rendererFrame"></div>
+        <div ng-controller="myCtrl" id="structureList">
+            <span ng-repeat="mesh in meshList">{{mesh.caption}} <input type="checkbox" ng-model="mesh.visible"><br></span>
+        </div>
+        
+        
+        <script src="app.js"></script>
+    </body>
+</html>

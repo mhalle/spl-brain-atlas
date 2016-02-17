@@ -1,0 +1,18 @@
+#rendererFrame {
+    background-color: #000000;
+    width: 76vw; 
+    height: 100vh; 
+    float:left;
+}
+
+#structureList {
+    width: 22vw; 
+    height: 100vh; 
+    float:right;
+    overflow: auto;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
