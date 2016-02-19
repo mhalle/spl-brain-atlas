@@ -20,6 +20,8 @@ var nrrdConversion,
     vtkFiles,
     vtkAtlasTSV,
     colorCheck,
+    extractedHierarchy,
+    buildHierarchy,
     writeJSONFile,
     hncma = {},
     skin = {},
@@ -134,8 +136,8 @@ function vtkConversion () {
         console.log(successLog(i+" structure(s) created in vtk conversion"));
         console.log(warningLog('Warning'), 'structures without vtk files : ', JSON.stringify(structuresWithoutVTKFile, null, 4));
 
-        writeJSONFile();
         vtkConversion.done = true;
+        buildHierarchy();
     }
 }
 
@@ -345,8 +347,8 @@ function nrrdConversion () {
         if (entriesWithoutNRRDMatch.length >0) {
             console.log(warningLog('Warning : ')," no match found in the nrrd files for these structure : ", JSON.stringify(entriesWithoutNRRDMatch.map((e)=>e.label), null, 4));
         }
-        
-        
+
+
         //--------------- CHECK IF THERE IS LABEL IN THE NRRD FILES THAT ARE NOT IN THE DESCRIPTION -----------------//
         var valuesNotReferenced = [];
         for (var value in hncma.labels) {
@@ -364,17 +366,87 @@ function nrrdConversion () {
         if (valuesNotReferenced.length > 0) {
             console.log(warningLog('Warning : '), ' The following values have been found the nrrd files but are not referenced in the tsv file', valuesNotReferenced);
         }
-        
-        
+
+
         nrrdConversion.done = true;
         writeJSONFile();
     }
 }
 
 
+//--------------------------------------- BUILD HIERARCHY FROM THE MRML FILE ----------------------------------------//
+
+function getUidFromStructureName (name) {
+    var matchingStructures = JSONResult.filter(item => item['@type']==="structure" && item.annotation.name===name);
+    if (matchingStructures.length > 1) {
+        //keep only structures with no data key ie vtk file
+        matchingStructures = matchingStructures.filter(item => item.sourceSelector && item.sourceSelector.dataKey===undefined);
+        if (matchingStructures.length > 1) {
+            throw 'Several sturctures matching the same name : '+name;
+        }
+    }
+    if (matchingStructures.length === 0) {
+        throw 'No structure matches the given name : '+name;
+    }
+    return matchingStructures[0]['@id'];
+}
+
+(function launchPythonScript() {
+    require('child_process').exec(
+        'python mrml-extract-hierarchy.py ../../slicer/brain-atlas.mrml ../../slicer/colortables/hncma-atlas-lut.ctbl',
+        function () {
+            fs.readFile('extractedHierarchy.json', function (err, data) {
+                if (err) {
+                    console.log(errorLog('Error while opening extracted hierarchy :'),err);
+                }
+                else {
+                    extractedHierarchy = JSON.parse(data);
+                    buildHierarchy();
+                }
+            })
+        }
+    );
+})()
+
+function buildHierarchy () {
+    if (vtkConversion.done && extractedHierarchy) {
+        var groups = [];
+        for (var label in extractedHierarchy.Hierarchies['__default__']) {
+            if (label !== '__root__') {
+                var group = {
+                    "@id" : uuid.v4(),
+                    "@type" : "group",
+                    "annotation" : {
+                        name : extractedHierarchy.nodes[label].name
+                    },
+                    members : extractedHierarchy.Hierarchies['__default__'][label].children //store the reference of the hierarchy node to retrieve uuid once every group is created
+                }
+                extractedHierarchy.nodes[label].uuid = group['@id'];
+                groups.push(group);
+            }
+        }
+        for (var i = 0; i<groups.length; i++) {
+            var group = groups[i];
+            //map uuid to each member, if label is found in hierarchy then search among the groups else it is a structure
+            group.members = group.members.map( function (nodeLabel) {
+                if (nodeLabel in extractedHierarchy.Hierarchies['__default__']) {
+                    return extractedHierarchy.nodes[nodeLabel].uuid
+                }
+                return getUidFromStructureName(extractedHierarchy.nodes[nodeLabel].name);
+            });
+        }
+        //concat JSONResult and groups in JSONResult
+        Array.prototype.push.apply(JSONResult,groups);
+        buildHierarchy.done = true;
+        writeJSONFile();
+    }
+}
+
+
+
 //------------------------------------------------ WRITING JSON FILE ------------------------------------------------//
 function writeJSONFile () {
-    if (nrrdConversion.done && vtkConversion.done) {
+    if (nrrdConversion.done && vtkConversion.done && buildHierarchy.done) {
         fs.writeFile("atlasStructure.json", JSON.stringify(JSONResult, null, 4), function(err) {
             if(err) {
                 return console.log(errorLog('Error while writing atlas structure : '), err);
