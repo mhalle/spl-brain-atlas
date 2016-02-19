@@ -421,6 +421,10 @@ function buildHierarchy () {
                     },
                     members : extractedHierarchy.Hierarchies['__default__'][label].children //store the reference of the hierarchy node to retrieve uuid once every group is created
                 }
+                if (extractedHierarchy.Hierarchies['__default__']['__root__'].children.indexOf(label) > -1) {
+                    //group is at the root so we create a root annotation to be able to easily built the tree later
+                    group.annotation.root = true;
+                }
                 extractedHierarchy.nodes[label].uuid = group['@id'];
                 groups.push(group);
             }
