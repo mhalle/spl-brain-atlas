@@ -7,7 +7,7 @@ app.controller('myCtrl', function($scope, $http) {
         success: function(data){
         var atlasStructure = data;
         var vtkDatasources = data.filter(function (object) {
-        return object['@type']==='datasource' && /\.vtk$/.test(object.source)
+        return object['@type']==='datasource' && /\.vtk$/.test(object.source);
     });
     var vtkDatasourcesId = vtkDatasources.map(source => source["@id"]);
     var vtkStructures = [];
