@@ -308,6 +308,9 @@ function nrrdConversion () {
             "mimeType" : "application/x-nrrd",
             "source" : "../../slicer/volumes/skin.nrrd"
         };
+        
+        JSONResult.push(hncmaDataSource);
+        JSONResult.push(skinDataSource);
 
         console.log(successLog('2 data sources created from nrrd files'));
         //----------------------------- CREATE STRUCTURE AND ADD THE CORRESPONDING FILE -----------------------------//
