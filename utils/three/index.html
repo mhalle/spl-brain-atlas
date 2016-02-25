@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Brain Atlas Visualisation</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+        <!-- dependencies -->
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="bower_components/angular/angular.js"></script>
+        <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css"/>
+
+        <!-- adapt-strap -->
+        <script src="bower_components/adapt-strap/dist/adapt-strap.min.js"></script>
+        <script src="bower_components/adapt-strap/dist/adapt-strap.tpl.min.js"></script>
+        <link rel="stylesheet" href="bower_components/adapt-strap/dist/adapt-strap.min.css"/>
+
+
+
+        <!--- local files -->
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link rel="stylesheet" type="text/css" href="bower_components/font-awesome/css/font-awesome.min.css" />
+    </head>
+
+    <body>
+
+        <script src="three.js"></script>
+        <script src="TrackballControls.js"></script>
+        <script src="VTKLoader.js"></script>
+        <script src="Detector.js"></script>
+        <script src="stats.min.js"></script>
+
+        <script>
+
+            if ( ! Detector.webgl ) Detector.addGetWebGLMessage();
+
+
+
+        </script>
+        
+        <div id="rendererFrame"></div>
+
+        <div id="logoBox">
+            <img src="logo_spl.gif" width="60px" height="48px"><br> 
+            <span>The SPL/NAC Brain Atlas</span><br>
+            <span class="tinyText">
+                <a href="http://www.spl.harvard.edu/publications/item/view/2037" target=_blank>More information</a>
+            </span><br>
+            <span class="tinyText">
+                <a href="https://www.github.com/mhalle/spl-brain-atlas" target=_blank>Source</a>
+            </span>
+        </div>
+        <div ng-app="myApp" ng-controller="myCtrl" id="structureList">
+            
+        </div>
+
+
+        <script src="app.js"></script>
+    </body>
+</html>
