@@ -36,19 +36,23 @@ angular.module('atlasDemo').controller('ModalInstanceCtrl', function ($scope, $u
         $scope.loadingJSON = false;
         $scope.loadingVTK = true;
         $scope.numberOfVTKFiles = numberOfVTKFiles;
+        $scope.$apply();
     });
     
     $rootScope.$on('modal.fileLoaded', function () {
+        console.log('file ++');
         $scope.loadedVTKFiles++;
         if ($scope.loadedVTKFiles === $scope.numberOfVTKFiles) {
             $scope.loadingVTK = false;
             $scope.loadingHierarchy = true;
         }
+        $scope.$apply();
     });
     
     $rootScope.$on('modal.hierarchyLoaded', function () {
         $scope.loadingHierarchy = false;
         $scope.done = true;
+        $scope.$apply();
     });
     
     $scope.ok = function () {
