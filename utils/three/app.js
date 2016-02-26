@@ -176,6 +176,7 @@ function init() {
 
         container = document.getElementById('rendererFrame');
         camera.aspect = container.clientWidth / container.clientHeight;
+        camera.updateProjectionMatrix();
 
         renderer = new THREE.WebGLRenderer( { antialias: false } );
         renderer.setPixelRatio( window.devicePixelRatio );
