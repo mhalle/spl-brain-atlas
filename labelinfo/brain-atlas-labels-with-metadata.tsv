@@ -1,0 +1,336 @@
+value	label	color	radlex_id	radlex_structure_id	cca_atlas_id	notes
+0	background	rgba(0,0,0,0)				
+2	white matter of left cerebral hemisphere	rgb(245,245,245)	RID16998	RID16998		
+3	skin	rgb(225,190,150)				
+4	left lateral ventricle	rgb(90,105,215)	RID13807	RID13807		
+5	temporal horn of left lateral ventricle	rgb(90,170,215)	RID13803	RID13803		
+7	white matter of left hemisphere of cerebellum	rgb(180,210,120)	RID17313	RID17313		
+8	left cerebellar cortex	rgb(230,150,35)	RID15574	RID15574		
+10	left thalamus	rgb(0,120,15)	RID13496	RID13496		
+11	left caudate nucleus	rgb(120,185,220)	RID21020	RID21020		
+12	left putamen	rgb(175,20,130)	RID21015	RID21015		
+13	left globus pallidus pars externa	rgb(10,50,255)	RID18435	RID18435		
+15	fourth ventricle	rgb(90,105,215)	RID7147	RID7147		
+17	left hippocampus	rgb(220,216,20)	RID26565	RID26565		
+18	left amygdala	rgb(105,255,255)	RID15698	RID15698		
+19	cerebral aqueduct	rgb(55,225,218)	RID7171	RID7171		
+24	third ventricle	rgb(90,105,215)	RID7137	RID7137		
+25	left globus pallidus pars interna	rgb(255,165,0)	RID18438	RID18438		
+26	left nucleus accumbens	rgb(165,0,255)	RID21022	RID21022		
+27	left middle cerebellar peduncle	rgb(0,255,130)	RID18080	RID18080		
+28	unsegmented region of left hypothalamus	rgb(165,40,40)	RID6639	RID6639	CCAX-RID6639-L-U	
+31	choroid plexus of left cerebral hemisphere	rgb(90,105,215)	RID27793	RID27793		
+34	choroid plexus of left cerebral hemisphere	rgb(120,135,50)	RID18078	RID18078		
+35	unsegmented region of pons	rgb(50,50,135)	RID6728	RID6728	CCAX-RID6728-U	
+40	unsegmented region of midbrain	rgb(205,60,80)	RID6768	RID6768	CCAX-RID6768-U	
+41	white matter of right cerebral hemisphere	rgb(200,225,200)	RID16997	RID16997		
+43	right lateral ventricle	rgb(90,105,215)	RID13806	RID13806		
+44	temporal horn of right lateral ventricle	rgb(90,170,215)	RID13802	RID13802		
+46	white matter of right hemisphere of cerebellum	rgb(180,210,120)	RID17312	RID17312		
+47	right cerebellar cortex	rgb(230,150,35)	RID15573	RID15573		
+49	right thalamus	rgb(0,120,15)	RID13495	RID13495		
+50	right caudate nucleus	rgb(120,185,220)	RID21019	RID21019		
+51	right putamen	rgb(175,20,130)	RID21014	RID21014		
+52	right globus pallidus pars externa	rgb(15,50,255)	RID18434	RID18434		
+53	right hippocampus	rgb(220,215,20)	RID26564	RID26564		
+54	right amygdala	rgb(105,255,255)	RID15699	RID15699		
+58	right nucleus accumbens	rgb(255,165,0)	RID21021	RID21021		
+60	unsegmented region of right hypothalamus	rgb(165,40,40)	RID6639	RID6639	CCAX-RID6639-R-U	
+61	medulla oblongata	rgb(135,205,235)	RID6681	RID6681		
+63	choroid plexus of right cerebral hemisphere	rgb(90,105,215)	RID27792	RID27792		
+66	left substantia nigra	rgb(120,135,50)	RID20742	RID20742		
+71	right substantia nigra	rgb(120,135,50)	RID20741	RID20741		
+72	pineal body	rgb(120,190,150)	RID6576	RID6576		
+78	left optic tract	rgb(255,150,10)	RID22698	RID22698		
+79	left red nucleus	rgb(255,150,10)	RID20702	RID20702		
+83	right globus pallidus pars interna	rgb(15,50,255)	RID18437	RID18437		
+84	right red nucleus	rgb(255,220,185)	RID20701	RID20701		
+85	optic chiasm	rgb(234,170,30)	RID6641	RID6641		
+96	pellucid septum	rgb(205,10,125)	RID6525	RID6525		
+100	left mammillothalamic tract	rgb(125,140,180)	RID17575	RID17575	CCAX-RID17563-L	
+142	anterior commissure	rgb(220,225,70)	RID6911	RID6911		
+200	right mammillothalamic tract	rgb(0,50,130)	RID17574	RID17574	CCAX-RID17563-R	
+216	right optic tract	rgb(255,205,100)	RID22697	RID22697		
+301	left III v	rgb(31,175,72)				
+302	left IV v	rgb(214,27,150)				
+303	left V v	rgb(220,39,44)				
+304	left VI v	rgb(49,95,178)				
+305	left VIIAf v	rgb(241,235,27)				
+306	left VIIAt v	rgb(158,56,161)				
+307	left VIIB v	rgb(56,120,63)				
+308	left VIIIA v	rgb(149,75,64)				
+309	left VIIIB v	rgb(116,64,163)				
+310	left IX v	rgb(124,139,88)				
+311	left X v	rgb(245,213,21)				
+312	left III m	rgb(115,204,130)				
+313	left IV m	rgb(220,113,174)				
+314	left V m	rgb(216,106,116)				
+315	left VI m	rgb(43,169,230)				
+316	left VIIA crusI m	rgb(237,229,148)				
+317	left VIIA crusII m	rgb(174,116,152)				
+318	left VIIB m	rgb(103,164,114)				
+319	left VIIIA m	rgb(167,123,89)				
+320	left VIIIB m	rgb(164,123,187)				
+321	left IX m	rgb(189,199,129)				
+322	left X m	rgb(243,231,100)				
+323	left V l	rgb(243,182,191)				
+324	left VI l	rgb(171,216,143)				
+327	left VIIA crusI l1	rgb(243,241,133)				
+328	left VIIA crusII l1	rgb(223,162,214)				
+329	left VIIB l	rgb(147,210,194)				
+330	left VIIIA l	rgb(216,190,132)				
+331	left VIIIB l	rgb(175,176,221)				
+332	left VIIA crusI l2	rgb(236,245,196)				
+333	left VIIA crusII l2	rgb(241,216,238)				
+334	right I II v	rgb(235,63,159)				
+335	right III v	rgb(31,175,72)				
+336	right IV v	rgb(214,27,150)				
+337	right V v	rgb(220,39,44)				
+338	right VI v	rgb(49,95,178)				
+339	right VIIAf v	rgb(241,235,27)				
+340	right VIIAt v	rgb(158,56,161)				
+341	right VIIB v	rgb(56,120,63)				
+342	right VIIIA v	rgb(149,75,64)				
+343	right VIIIB v	rgb(116,64,163)				
+344	right IX v	rgb(124,139,88)				
+345	right X v	rgb(245,213,21)				
+346	right III m	rgb(115,204,130)				
+347	right IV m	rgb(220,113,174)				
+348	right V m	rgb(216,106,116)				
+349	right VI m	rgb(43,169,230)				
+350	right VIIA crusI m	rgb(237,229,148)				
+351	right VIIA crusII m	rgb(174,116,152)				
+352	right VIIB m	rgb(103,164,114)				
+353	right VIIIA m	rgb(167,123,89)				
+354	right VIIIB m	rgb(164,123,187)				
+355	right IX m	rgb(189,199,129)				
+356	right X m	rgb(243,231,100)				
+357	right V l	rgb(243,182,191)				
+358	right VI l	rgb(171,216,143)				
+361	right VIIA crusI l1	rgb(243,241,133)				
+362	right VIIA crusII l1	rgb(223,162,214)				
+363	right VIIB l	rgb(147,210,194)				
+364	right VIIIA l	rgb(216,190,132)				
+365	right VIIIB l	rgb(175,176,221)				
+366	right VIIA crusI l2	rgb(236,245,196)				
+367	right VIIA crusII l2	rgb(241,216,238)				
+371	left Dentate nucleus	rgb(100,200,100)				
+373	left FaGE nuclei	rgb(255,0,0)				
+375	right Dentate nucleus	rgb(100,200,100)				
+377	right FaGE nuclei	rgb(255,0,0)				
+380	left anterior superior hypothalamus	rgb(243,136,62)				
+381	left anterior inferior hypothalamus	rgb(135,247,4)				
+382	left superior tuberal hypothalamus	rgb(147,69,18)				
+383	left inferior tuberal hypothalamus	rgb(4,235,125)				
+384	left posterior superior hypothalamus	rgb(125,38,205)				
+385	right anterior superior hypothalamus	rgb(243,136,62)				
+386	right anterior inferior hypothalamus	rgb(135,247,4)				
+387	right superior tuberal hypothalamus	rgb(147,69,18)				
+388	right inferior tuberal hypothalamus	rgb(4,235,125)				
+389	right posterior superior hypothalamus	rgb(125,38,205)				
+390	right subthalamic nucleus	rgb(200,25,140)				
+391	left subthalamic nucleus	rgb(200,25,140)				
+500	right internal medullary lamina	rgb(200,200,200)	RID18025	RID18025		
+501	left internal medullary lamina	rgb(200,200,200)	RID18026	RID18026		
+502	right medial geniculate body	rgb(125,250,20)	RID20560	RID20560		
+503	left medial geniculate body	rgb(125,250, 20)	RID20561	RID20561		
+504	right lateral geniculate body	rgb(100,180,255)	RID20562	RID20562		
+505	left lateral geniculate body	rgb(100,180,255)	RID20563	RID20563		
+506	right pulvinar	rgb(63,105,225)	RID20564	RID20564		
+507	left pulvinar	rgb(63,105,225)	RID20565	RID20565		
+508	right anterior thalamic nucleus	rgb(255,25,130)	RID20544	RID20544		in the old SPL-BrainAtlas-Colorfile.txtLandRare mislabeled (switched)
+509	left anterior thalamic nucleus	rgb(255,25,130)	RID20545	RID20545		in the old SPL-BrainAtlas-Colorfile.txtLandRare mislabeled (switched)
+510	right dorsomedial thalamic nucleus	rgb(60,190,130)	RID20535	RID20535		
+511	left dorsomedial thalamic nucleus	rgb(60,190,130)	RID20536	RID20536		
+512	right centromedian thalamic nucleus	rgb(190,180,105)	RID20568	RID20568		
+513	left centromedian thalamic nucleus	rgb(190,180,105)	RID20569	RID20569		
+514	right ventral anterior thalamic nucleus	rgb(255,213,0)	RID20929	RID20929		
+515	left ventral anterior thalamic nucleus	rgb(255,213,0)	RID20930	RID20930		
+516	right ventral lateral thalamic nucleus	rgb(60,180,180)	RID20931	RID20931		
+517	left ventral lateral thalamic nucleus	rgb(60,180,180)	RID20932	RID20932		
+518	right lateral posterior thalamic nucleus	rgb(205,130,0)	RID20927	RID20927		
+519	left lateral posterior thalamic nucleus	rgb(205,130,0)	RID20928	RID20928		
+520	right lateral dorsal thalamic nucleus	rgb(175,190,220)	RID20925	RID20925		
+521	left lateral dorsal thalamic nucleus	rgb(175,190,220)	RID20926	RID20926		
+522	right ventral posteromedial thalamic nucleus	rgb(225,170,105)	RID20506	RID20506		
+523	left ventral posteromedial thalamic nucleus	rgb(225,170,105)	RID20507	RID20507		
+524	right ventral posterolateral thalamic nucleus	rgb(230,130,130)	RID20504	RID20504		
+525	left ventral posterolateral thalamic nucleus	rgb(230,130,130)	RID20505	RID20505		
+1000	unsegmented region of left insula	rgb(125,5,25)	RID13871	RID13871	CCAX-RID13871-U	
+1001	left superior temporal gyrus (banks of left superior temporal sulcus)	rgb(25,100,40)	RID20309	RID13889		
+1002	caudal part of left anterior cingulate gyrus	rgb(125,100,160)	RID26841	RID26841	CCAX-RID26841-S	
+1003	posterior part of left middle frontal gyrus	rgb(100,25,0)	RID26835	RID14075		
+1005	left cuneus	rgb(220,20,100)	RID20356	RID26552		
+1006	left ambiens gyrus	rgb(185,15,10)	RID26595	RID26595		
+1007	left fusiform gyrus	rgb(180,220,140)	RID26541	RID26541		
+1008	unsegmented region of left inferior parietal lobule	rgb(180,90,185)	RID27590	RID14108	CCAX-RID14108-U	
+1009	left inferior temporal gyrus	rgb(180,40,120)	RID20315	RID13893		
+1010	isthmus of left cingulate gyrus	rgb(140,20,140)	RID20384	RID14043		
+1011	left lateral occipital gyrus	rgb(20,30,140)	RID20353	RID13938		
+1012	left lateral orbital gyrus	rgb(35,75,50)	RID20293	RID13924		
+1013	left lingual gyrus	rgb(225,140,140)	RID20359	RID26554		
+1014	left straight gyrus	rgb(200,35,75)	RID20278	RID13906		
+1015	left middle temporal gyrus	rgb(160,100,50)	RID20312	RID13891		
+1016	left parahippocampal gyrus	rgb(250,250,250)	RID20306	RID13956		
+1017	left paracentral lobule	rgb(60,175,80)	RID27593	RID14112		
+1018	opercular part of left inferior frontal gyrus	rgb(70,180,30)	RID22705	RID13978		
+1019	orbital part of left inferior frontal gyrus	rgb(220,180,140)	RID22708	RID13981		
+1020	triangular part of left inferior frontal gyrus	rgb(220,60,20)	RID22702	RID13975		
+1021	left visual cortex	rgb(120,100,60)	RID25841	RID25841		
+1022	left postcentral gyrus	rgb(195,40,40)	RID20334	RID13928		
+1023	left posterior cingulate gyrus	rgb(220,180,220)	RID20378	RID14049		
+1024	left precentral gyrus	rgb(95,75,175)	RID20275	RID13912		
+1025	left precuneus	rgb(160,140,180)	RID20346	RID13963		
+1026	rostral part of left anterior cingulate gyrus	rgb(80,20,140)	RID26838	RID26838	CCAX-RID26838-S	look at structure id
+1027	anterior part of left middle frontal gyrus	rgb(75,50,125)	RID26832	RID14069		
+1028	left superior frontal gyrus	rgb(50,160,150)	RID20269	RID13903		
+1029	left superior parietal lobule	rgb(20,180,140)	RID20343	RID14110		may include precuneus in labeling
+1030	left superior temporal gyrus	rgb(140,220,220)	RID20309	RID13889		
+1031	left supramarginal gyrus	rgb(80,160,20)	RID20337	RID13930		May include angular gyrus
+1032	left frontal pole	rgb(100,0,100)	RID26767	RID20409		
+1033	left temporal pole	rgb(70,70,70)	RID26770	RID20416		
+1034	left transverse temporal gyrus	rgb(150,150,200)	RID20330	RID26543		
+1035	limen of left insula	rgb(145,50,65)	RID26595			
+2000	unsegmented region of right insula	rgb(80,196,98)	RID13870	RID13870	CCAX-RID13870-U	
+2001	right superior temporal gyrus (banks of right superior temporal sulcus)	rgb(25,100,40)	RID20308	RID13888		
+2002	caudal part of right anterior cingulate gyrus	rgb(125,100,160)	RID26840	RID26840	CCAX-RID26840-S	
+2003	posterior part of right middle frontal gyrus	rgb(100,25,0)	RID26834	RID14074		
+2005	right cuneus	rgb(220,20,100)	RID20355	RID26551		
+2006	right ambiens gyrus	rgb(220,20,100)	RID26594	RID26594		
+2007	right fusiform gyrus	rgb(180,220,140)	RID20317	RID26540		
+2008	unsegmented region of right inferior parietal lobule	rgb(185,90,185)	RID15673	RID14107	CCAX-RID14107-U	
+2009	right inferior temporal gyrus	rgb(180,40,120)	RID20314	RID13892		
+2010	isthmus of right cingulate gyrus	rgb(140,20,140)	RID20383	RID14042		
+2011	right lateral occipital gyrus	rgb(20,30,140)	RID20352	RID13937		
+2012	right lateral orbital gyrus	rgb(35,75,50)	RID20292	RID13923		
+2013	right lingual gyrus	rgb(225,140,140)	RID20358	RID26553		
+2014	right straight gyrus	rgb(200,35,75)	RID20277	RID13905		
+2015	right middle temporal gyrus	rgb(160,100,50)	RID20311	RID13890		
+2016	right parahippocampal gyrus	rgb(45,165,45)	RID20305	RID13955		
+2017	right paracentral lobule	rgb(105,205,105)	RID27592	RID14111		
+2018	opercular part of right inferior frontal gyrus	rgb(220,180,140)	RID22704	RID13977		
+2019	orbital part of right inferior frontal gyrus	rgb(20,100,50)	RID22707	RID13980		
+2020	triangular part of right inferior frontal gyrus	rgb(220,60,20)	RID22701	RID13974		
+2021	right visual cortex	rgb(120,100,60)	RID25840	RID25840		
+2022	right postcentral gyrus	rgb(195,40,40)	RID20333	RID13927		
+2023	right posterior cingulate gyrus	rgb(220,180,220)	RID20377	RID14048		
+2024	right precentral gyrus	rgb(95,75,175)	RID20274	RID13911		
+2025	right precuneus	rgb(160,140,180)	RID20345	RID13962		
+2026	rostral part of right anterior cingulate gyrus	rgb(80,20,140)	RID26837	RID26837	CCAX-RID26837-S	look at structure id
+2027	anterior part of right middle frontal gyrus	rgb(75,50,125)	RID26831	RID14068		
+2028	right superior frontal gyrus	rgb(50,160,150)	RID20268	RID13902		
+2029	right superior parietal lobule	rgb(20,180,140)	RID20342	RID14109		may include precuneus
+2030	right superior temporal gyrus	rgb(140,220,220)	RID20308	RID13888		
+2031	right supramarginal gyrus	rgb(80,160,20)	RID20336	RID13929		may include angular  gyrus
+2032	right frontal pole	rgb(100,0,100)	RID26766	RID20408		
+2033	right temporal pole	rgb(70,70,70)	RID26769	RID20415		
+2034	right transverse temporal gyrus	rgb(150,150,200)	RID20329	RID26542		
+2035	limen of right insula	rgb(110, 150, 120)	RID26594			
+2108	right angular and supramarginal gyri (obsolete label)	rgb(230,250,230)	RID22701	RID13974		
+3000	right claustrum	rgb(230,250,230)	RID15701	RID15701		
+3001	left claustrum	rgb(230,155,215)	RID15700	RID15700		
+3002	right mammillary body	rgb(130,155,95)	RID26776	RID26776		
+3003	left mammillary body	rgb(155,230,255)	RID26777	RID26777		
+3004	corpus callosum	rgb(250,240,20)	RID6915	RID6915		
+3005	right fornix of forebrain	rgb(35,235,155)	RID18106	RID18106		
+3007	left fornix of forebrain	rgb(75,35,115)	RID18107	RID18107		
+3008	infundibulum of neurohypophysis	rgb(35,195,35)	RID15529	RID15529		
+3011	adenohypophysis	rgb(235,225,115)	RID15522	RID15522		
+3012	unsegmented region of neurohypophysis	rgb(220,180,205)	RID6645	RID6645	CCAX-RID6645-U	
+4001	left temporalis	rgb(153,0,51)				
+4002	right temporalis	rgb(153,0,51)				
+4003	left masseter	rgb(133,0,51)				
+4004	right masseter	rgb(133,0,51)				
+4005	left lateral pterygoid	rgb(110,0,51)				
+4006	right lateral pterygoid	rgb(110,0,51)				
+4007	left medial pterygoid	rgb(90,0,51)				
+4008	right medial pterygoid	rgb(90,0,51)				
+4011	left medial rectus	rgb(90,79,130)				
+4012	right medial rectus	rgb(90,79,130)				
+4013	left superior rectus	rgba(111,88,147,0.098)				
+4014	right superior rectus	rgb(111,88,147)				
+4015	left superior oblique	rgb(123,98,130)				
+4016	right superior oblique	rgb(123,98,130)				
+4017	left inferior rectus	rgb(135,108,144)				
+4018	right inferior rectus	rgb(135,108,144)				
+4019	left lateral rectus	rgb(150,120,160)				
+4020	right lateral rectus	rgb(150,120,160)				
+4021	left levator palpebrae superioris	rgb(170,120,160)				
+4022	right levator palpebrae superioris	rgb(170,120,160)				
+4027	left eyeball	rgb(163,191,218)				
+4028	right eyeball	rgb(163,191,218)				
+4030	uvula	rgb(180,75,20)				
+4031	left tensor veli palatini	rgb(165,85,25)				
+4032	right tensor veli palatini	rgb(165,85,25)				
+4033	left palatoglossus	rgb(210,85,25)				
+4034	right palatoglossus	rgb(210,85,25)				
+4035	left levator veli palatini	rgb(235,85,25)				
+4036	right levator veli palatini	rgb(235,85,25)				
+4037	left palatopharyngeus	rgb(198,85,25)				
+4038	right palatopharyngeus	rgb(198,85,25)				
+4041	left zygomaticus major	rgb(200,125,125)				
+4042	right zygomaticus major	rgb(200,125,125)				
+4043	left nasalis	rgb(220,125,125)				
+4044	right nasalis	rgb(220,125,125)				
+4045	left levator labii superioris	rgb(210,125,125)				
+4046	right levator labii superioris	rgb(210,125,125)				
+4047	left buccinator	rgb(190,125,125)				
+4048	right buccinator	rgb(190,125,125)				
+4050	tongue	rgb(166,84,94)				
+4051	left hyoglossus	rgb(180,115,115)				
+4052	right hyoglossus	rgb(180,115,115)				
+4060	middle constrictor	rgb(150,70,70)				
+4061	left stylopharyngeus	rgb(180,70,70)				
+4062	right stylopharyngeus	rgb(180,70,70)				
+4071	left rectus capitis posterior minor	rgb(145,80,100)				
+4072	right rectus capitis posterior minor	rgb(145,80,100)				
+4073	left longissimus capitis	rgb(200,100,80)				
+4074	right longissimus capitis	rgb(200,100,80)				
+4075	left semispinalis capitis	rgb(255,100,80)				
+4076	right semispinalis capitis	rgb(255,100,80)				
+4077	left longus colli	rgb(215,100,80)				
+4078	right longus colli	rgb(215,100,80)				
+4079	left superior oblique capitis	rgb(200,80,100)				
+4080	right superior oblique capitis	rgb(200,80,100)				
+4081	left stylohyoid	rgb(175,80,100)				
+4082	right stylohyoid	rgb(175,80,100)				
+4083	left anterior rectus capitis	rgb(215,100,80)				
+4084	right anterior rectus capitis	rgb(215,100,80)				
+4085	left trapezius	rgb(155,80,100)				
+4086	right trapezius	rgb(155,80,100)				
+4087	left longus capitis	rgb(210,80,100)				
+4088	right longus capitis	rgb(210,80,100)				
+4089	left sternocleidomastoid	rgb(160,80,100)				
+4090	right sternocleidomastoid	rgb(160,80,100)				
+4091	left middle scalenus	rgb(165,80,100)				
+4092	right middle scalenus	rgb(165,80,100)				
+4093	left digastric	rgb(170,80,100)				
+4094	right digastric	rgb(170,80,100)				
+4095	left splenius capitis	rgb(180,80,100)				
+4096	right splenius capitis	rgb(180,80,100)				
+4097	left inferior oblique capitis	rgb(185,80,100)				
+4098	right inferior oblique capitis	rgb(185,80,100)				
+4099	left rectus capitis posterior major	rgb(215,80,100)				
+4100	right rectus capitis posterior major	rgb(215,80,100)				
+5001	left calcarine sulcus	rgb(126,128,9)				
+5002	right calcarine sulcus	rgb(126,128,9)				
+5003	left central sulcus	rgb(233,227,27)				
+5004	right central sulcus	rgb(233,227,27)				
+5005	left cingulate sulcus	rgb(38,210,26)				
+5006	right cingulate sulcus	rgb(38,210,26)				
+5007	left collateral sulcus	rgb(50,227,221)				
+5008	right collateral sulcus	rgb(50,227,221)				
+5009	left inferior frontal sulcus	rgb(241,88,66)				
+5010	right inferior frontal sulcus	rgb(241,88,66)				
+5011	left intraparietal sulcus	rgb(149,124,161)				
+5012	right intraparietal sulcus	rgb(149,124,161)				
+5013	left parieto-occipital sulcus	rgb(37,123,227)				
+5014	right parieto-occipital sulcus	rgb(37,123,227)				
+5015	left postcentral sulcus	rgb(204,84,204)				
+5016	right postcentral sulcus	rgb(204,84,204)				
+5017	left precentral sulcus	rgb(228,152,129)				
+5018	right precentral sulcus	rgb(228,152,129)				
+5019	left superior frontal sulcus	rgb(250,240,220)				
+5020	right superior frontal sulcus	rgb(250,240,220)				
+5021	left superior temporal sulcus	rgb(113,128,150)				
+5022	right superior temporal sulcus	rgb(113,128,150)				

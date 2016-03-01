@@ -1,0 +1,7 @@
+<div>
+    <span class="name-cell pull-left">{{ item.name }}</span>
+    <span class="pull-right margin-right-lg">
+        <i class="fa fa-eye" ng-if="item.mesh.visible" ng-click="item.mesh.visible=false"></i>
+        <i class="fa fa-eye-slash" ng-if="!item.mesh.visible" ng-click="item.mesh.visible=true"></i>
+    </span>
+</div>
