@@ -2,5 +2,5 @@
 //all the changes you make to this file will be ignored by git so you can pull new versions of the viewer.
 
 window.globalViewerParameters = {
-    atlasStructurePath : "../tsvToJson/atlasStructure.json"
+    atlasStructurePath : "../mrmlToJson/atlasStructure.json"
 }

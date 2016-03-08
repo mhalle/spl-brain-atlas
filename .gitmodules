@@ -1,3 +1,6 @@
 [submodule "utils/three"]
 	path = utils/three
 	url = https://github.com/stity/threejs-atlas-viewer.git
+[submodule "utils/mrmlToJson"]
+	path = utils/mrmlToJson
+	url = https://github.com/stity/mrmlToJson.git
