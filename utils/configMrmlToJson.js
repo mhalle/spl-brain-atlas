@@ -3,7 +3,7 @@ module.exports = {
     mrmlFileLocation : "../../slicer/brain-atlas.mrml",
     colorTableFileLocation : "../../slicer/colortables/hncma-atlas-lut.ctbl",
     vtkFilesDirectory : "../../slicer/models/",
-    jsonResultFileName : "atlasStructure.json",
+    jsonResultFileName : "../atlasStructure.json",
     header : {
         "@type": "header",
         "species": "human",
