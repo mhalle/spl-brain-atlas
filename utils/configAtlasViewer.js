@@ -3,5 +3,6 @@
 
 window.globalViewerParameters = {
     atlasStructurePath : "../atlasStructure.json",
-    timeoutDelayPickup : 25
+    timeoutDelayPickup : 25,
+    cubeHelper : true
 }

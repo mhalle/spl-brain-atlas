@@ -14,6 +14,8 @@ module.exports = {
         "version" : "1",
         "contact" : "https://github.com/stity/spl-brain-atlas",
         "comment" : "",
-        "coordinate_system" : "self defined"
+        "coordinate_system" : "self defined",
+        "roots" : [],
+        "backgroundImages" : "../../slicer/volumes/imaging/A1_grayT1.nrrd"
     }
 }
