@@ -20,10 +20,11 @@ module.exports = {
     labelMapFiles : [{ 
         name : "../../slicer/volumes/labels/hncma-atlas.nrrd",
         includes : "*" 
-    },{ 
+    }/* exclude skin because it does not match the others volumes
+    ,{ 
         name : "../../slicer/volumes/labels/skin.nrrd",
         includes : [3]
-    }],
-    "backgroundImages" : ["../../slicer/volumes/imaging/A1_grayT1.nrrd", "../../slicer/volumes/imaging/A1_grayT2.nrrd"]
+    }*/],
+    "backgroundImages" : ["../../slicer/volumes/imaging/A1_grayT1-1mm_resample.nrrd", "../../slicer/volumes/imaging/A1_grayT2-1mm_resample.nrrd"]
 
 };
