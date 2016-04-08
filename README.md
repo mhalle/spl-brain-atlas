@@ -33,3 +33,26 @@ The SPL-PNL Brain Atlas has been developed with support from the National Instit
 If you should find the atlas useful, please reference it using information at the following URL:
 http://www.spl.harvard.edu/publications/item/view/1265 .
 
+## Using the online viewer ##
+
+![viewer screenshot](viewer_screenshot.png "Viewer")
+
+### Without installation ###
+
+You can [see the latest release here](https://stity.github.io/spl-brain-atlas/utils/three)
+
+### Installing from the git repository ###
+
+* first pull the whole reposity by running : 
+`git clone https://github.com/stity/spl-brain-atlas.git`
+* make sure that the submodules are up-to-date : 
+```
+    cd utils/three
+    git pull origin master
+    cd ../mrmlToJson
+    git pull origin master
+```
+* follow the instructions given by the `utils/mrmlToJson/README.md` starting from copying the config file
+* follow the intructions given by the `utils/three/README.md` starting from copying the config file
+* run a local server at the root of the cloned repository (you can achieve that by running `npm install -g http-server` and then `http-server`)
+* use a browser to go to this address : [http://localhost:8080/utils/three](http://localhost:8080/utils/three)
