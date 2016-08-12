@@ -237,6 +237,14 @@ value	label	color	radlex_id	radlex_structure_id	cca_atlas_id	notes
 3008	infundibulum of neurohypophysis	rgb(35,195,35)	RID15529	RID15529		
 3011	adenohypophysis	rgb(235,225,115)	RID15522	RID15522		
 3012	unsegmented region of neurohypophysis	rgb(220,180,205)	RID6645	RID6645	CCAX-RID6645-U	
+3020	right superior colliculus	rgb(241,214,145)
+3021	left superior colliculus	rgb(221,130,101)
+3022	right inferior colliculus	rgb(177,122,101)
+3023	left inferior colliculus	rgb(111,184,210)
+3030	brachia of right superior colliculus	rgb(145,140,220)
+3031	brachia of left superior colliculus	rgb(175,240,140)
+3032	brachia of right inferior colliculus	rgb(120,210,210)
+3033	brachia of left inferior colliculus	rgb(140,140,114)
 4001	left temporalis	rgb(153,0,51)				
 4002	right temporalis	rgb(153,0,51)				
 4003	left masseter	rgb(133,0,51)				
