@@ -1,0 +1,29 @@
+{
+  "name": "atlasXTKDemo",
+  "main": "index.html",
+  "homepage": "https://github.com/stity/spl-brain-atlas",
+  "authors": [
+    "Valentin Demeusy <valentin.demeusy@gmail.com>"
+  ],
+  "description": "atlas viewer using xtk and the new json atlas format",
+  "moduleType": [
+    "es6"
+  ],
+  "keywords": [
+    "xtk",
+    "atlas"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "adapt-strap": "^2.4.12",
+    "bootstrap": "^3.3.6",
+    "font-awesome": "FortAwesome/Font-Awesome#^4.5.0"
+  }
+}
